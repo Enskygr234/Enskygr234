@@ -69,6 +69,12 @@ Telefona özel tarif uygulaması. 12 hazır Türk tarifi, kişi sayısına göre
 ## 📦 Son yayınlar
 
 <!-- YAYIN:BASLA -->
+| Proje | Sürüm | Tarih |
+|---|---|---|
+| **ensdewloper.github.io** | [Yemek Tarifleri (sürüm 2)](https://github.com/Enskygr234/ensdewloper.github.io/releases/tag/tarifler-2) | 13 Ekim 2026 |
+| **masaustu-kar** | [Masaüstü Kar v1.0](https://github.com/Enskygr234/masaustu-kar/releases/tag/v1.0.0) | 13 Ekim 2026 |
+| **ayaz** | [ayaz v1.0](https://github.com/Enskygr234/ayaz/releases/tag/v1.0.0) | 13 Ekim 2026 |
+| **son-kis** | [Son Kış v1.0](https://github.com/Enskygr234/son-kis/releases/tag/v1.0) | 13 Ekim 2026 |
 <!-- YAYIN:BITIS -->
 
 ## ✳️ Bugünün kar taneleri
