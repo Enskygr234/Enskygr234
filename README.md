@@ -28,6 +28,21 @@
   </picture>
 </div>
 
+## 🏮 Yeni oyun: Ayaz Ata'nın Feneri
+
+<a href="https://github.com/Enskygr234/ensdewloper.github.io/releases/tag/ayaz-feneri">
+  <img src="docs/ayaz-feneri.png" alt="Ayaz Ata'nın Feneri" width="100%">
+</a>
+
+*Bir Nardugan masalı.* Karakoncolos, Ayaz Ata'nın fenerindeki üç yıldız parçasını çalıp karanlığa saçtı. Fener yanmazsa en uzun gece hiç bitmeyecek. Bora olarak Köy Yolu'ndan Buz Ormanı'na, oradan Karakoncolos'un mağarasına uzanan üç bölümde parçaları geri topla.
+
+<div align="center">
+
+[![APK indir](https://img.shields.io/badge/⬇_APK_indir-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Enskygr234/ensdewloper.github.io/releases/download/ayaz-feneri/AyazFeneri.apk)
+[![Tarayıcıda oyna](https://img.shields.io/badge/Tarayıcıda_oyna-🏮-f2a33a?style=for-the-badge)](https://enskygr234.github.io/ensdewloper.github.io/ayaz-feneri/)
+
+</div>
+
 ## 📱 Yeni: Yemek Tarifleri
 
 Telefona özel tarif uygulaması. 12 hazır Türk tarifi, kişi sayısına göre otomatik hesaplanan malzemeler, adım adım zamanlayıcı, favoriler ve kendi tariflerini ekleme. İnternetsiz çalışır.
@@ -70,6 +85,7 @@ Telefona özel tarif uygulaması. 12 hazır Türk tarifi, kişi sayısına göre
 | 🛷 [**Kızak**](https://github.com/Enskygr234/kizak) | Sonsuz yokuş aşağı kızak oyunu; telefonda da oynanır | JavaScript | [oyna](https://enskygr234.github.io/kizak/) |
 | 🌅 [**Nardugan**](https://github.com/Enskygr234/nardugan) | Kış gündönümüne canlı geri sayım; anı astronomik olarak hesaplar | JavaScript | [aç](https://enskygr234.github.io/nardugan/) |
 | 🖥️ [**Masaüstü Kar**](https://github.com/Enskygr234/masaustu-kar) | Windows masaüstüne kar yağdırır, tıklamaları engellemez | C# | [indir](https://github.com/Enskygr234/masaustu-kar/releases/latest) |
+| 🏮 [**Ayaz Ata'nın Feneri**](https://github.com/Enskygr234/ensdewloper.github.io/tree/main/ayaz-feneri) | Hikâyeli 2D platform oyunu: 3 bölüm ve Karakoncolos ile kapışma, telefonda oynanır | JavaScript | [APK](https://github.com/Enskygr234/ensdewloper.github.io/releases/download/ayaz-feneri/AyazFeneri.apk) |
 | 🍲 [**Yemek Tarifleri**](https://github.com/Enskygr234/ensdewloper.github.io/tree/main/tarifler) | Telefona özel tarif uygulaması: zamanlayıcı, porsiyon hesabı, favoriler | JavaScript | [APK](https://github.com/Enskygr234/ensdewloper.github.io/releases/latest) |
 | 🎮 [**Tarayıcı oyunları**](https://github.com/Enskygr234/ensdewloper.github.io) | Yılan, Pong, Tic Tac Toe, Taş Kâğıt Makas, Eşleştirme | HTML / JS | [oyna](https://enskygr234.github.io/ensdewloper.github.io/oyunlar.html) |
 
