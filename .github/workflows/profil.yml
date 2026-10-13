@@ -10,6 +10,7 @@ on:
     paths:
       - ".github/scripts/guncelle.py"
       - ".github/workflows/profil.yml"
+      - ".github/scripts/kar_grafik.py"
 
 permissions:
   contents: write
@@ -26,10 +27,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python .github/scripts/guncelle.py
+      - name: Karlı katkı grafiğini çiz
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/scripts/kar_grafik.py
       - name: Değişiklik varsa kaydet
         run: |
-          if git diff --quiet; then echo "Değişiklik yok"; exit 0; fi
+          git add -A
+          if git diff --cached --quiet; then echo "Değişiklik yok"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
-          git commit -am "❄️ Profil otomatik güncellendi"
+          git commit -m "❄️ Profil otomatik güncellendi"
           git push

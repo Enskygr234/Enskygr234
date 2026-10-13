@@ -21,6 +21,13 @@
 </div>
 <!-- KIS:BITIS -->
 
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dist/kar-koyu.svg">
+    <img src="dist/kar-acik.svg" alt="Karla kaplanan katkı grafiği" width="100%">
+  </picture>
+</div>
+
 ## 📱 Yeni: Yemek Tarifleri
 
 Telefona özel tarif uygulaması. 12 hazır Türk tarifi, kişi sayısına göre otomatik hesaplanan malzemeler, adım adım zamanlayıcı, favoriler ve kendi tariflerini ekleme. İnternetsiz çalışır.
