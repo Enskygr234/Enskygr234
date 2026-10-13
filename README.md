@@ -2,23 +2,16 @@
 
 ![Winterdeveloper](afis.svg)
 
-**Kışı seven bir geliştirici — oyunlar, küçük Windows araçları, telefon uygulamaları ve kar yağan web sayfaları yapıyorum.**
+**Kışı seven bir geliştirici. Oyunlar, telefon uygulamaları, küçük Windows araçları ve kar yağan web sayfaları yapıyorum.**
 
-[![Web sitem](https://img.shields.io/badge/Web_sitem-winterhub-8ecae6?style=for-the-badge)](https://winterhub.rf.gd/?i=1)
+[![Sitem](https://img.shields.io/badge/🌐_Sitem-bütün_projeler-00d9ff?style=for-the-badge)](https://enskygr234.github.io/ensdewloper.github.io/)
+[![Winterhub](https://img.shields.io/badge/Winterhub-8ecae6?style=for-the-badge)](https://winterhub.rf.gd/?i=1)
 [![Tarayıcı oyunları](https://img.shields.io/badge/Tarayıcı_oyunları-oyna-219ebc?style=for-the-badge)](https://enskygr234.github.io/ensdewloper.github.io/oyunlar.html)
-[![Kızak oyna](https://img.shields.io/badge/Kızak-oyna-e63946?style=for-the-badge)](https://enskygr234.github.io/kizak/)
 [![Kar tanemi göster](https://img.shields.io/badge/Kar_tanemi_göster-❄-bfe6ff?style=for-the-badge)](https://enskygr234.github.io/kar-tanesi/)
 
 </div>
 
 <!-- KIS:BASLA -->
-<div align="center">
-
-🌅 Nardugan'a (kış gündönümü) **69 gün** kaldı &nbsp; `❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄····`
-
-<sub>Her gün kendiliğinden güncellenir · son: 13 Ekim 2026</sub>
-
-</div>
 <!-- KIS:BITIS -->
 
 <div align="center">
@@ -28,77 +21,80 @@
   </picture>
 </div>
 
-## 🏮 Yeni oyun: Ayaz Ata'nın Feneri
+## 🔥 Öne çıkanlar
 
-<a href="https://github.com/Enskygr234/ensdewloper.github.io/releases/tag/ayaz-feneri">
-  <img src="docs/ayaz-feneri.png" alt="Ayaz Ata'nın Feneri" width="100%">
-</a>
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://enskygr234.github.io/ensdewloper.github.io/ayaz-feneri/"><img src="docs/ayaz-feneri.png" alt="Ayaz Ata'nın Feneri"></a>
 
-*Bir Nardugan masalı.* Karakoncolos, Ayaz Ata'nın fenerindeki üç yıldız parçasını çalıp karanlığa saçtı. Fener yanmazsa en uzun gece hiç bitmeyecek. Bora olarak Köy Yolu'ndan Buz Ormanı'na, oradan Karakoncolos'un mağarasına uzanan üç bölümde parçaları geri topla.
+**🏮 Ayaz Ata'nın Feneri** · *yeni*<br>
+Hikâyeli 2D platform oyunu. Karakoncolos'un çaldığı üç yıldız parçasını topla, en uzun gece bitsin.<br>
+[⬇ APK](https://github.com/Enskygr234/ensdewloper.github.io/releases/download/ayaz-feneri/AyazFeneri.apk) · [▶ Tarayıcıda oyna](https://enskygr234.github.io/ensdewloper.github.io/ayaz-feneri/)
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/Enskygr234/son-kis"><img src="https://raw.githubusercontent.com/Enskygr234/son-kis/HEAD/docs/baslik.png" alt="Son Kış"></a>
 
-<div align="center">
+**❄️ Son Kış**<br>
+Bir Nardugan masalı. Karakoncolos, Şahmeran, Tepegöz ve Ayaz Ata'yla karşılaş; onları ısıt ya da yak.<br>
+[⬇ Windows için indir](https://github.com/Enskygr234/son-kis/releases/latest) · [Kaynak kod](https://github.com/Enskygr234/son-kis)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Enskygr234/Winterball"><img src="docs/winterball.png" alt="Winterball"></a>
 
-[![APK indir](https://img.shields.io/badge/⬇_APK_indir-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Enskygr234/ensdewloper.github.io/releases/download/ayaz-feneri/AyazFeneri.apk)
-[![Tarayıcıda oyna](https://img.shields.io/badge/Tarayıcıda_oyna-🏮-f2a33a?style=for-the-badge)](https://enskygr234.github.io/ensdewloper.github.io/ayaz-feneri/)
+**⚽ Winterball** · *yeni*<br>
+Canlı skor uygulaması: goller, kartlar, kadrolar, istatistikler ve 14 ligin puan durumu.<br>
+[⬇ APK](https://github.com/Enskygr234/Winterball/releases/download/son-surum/Winterball.apk) · [Kaynak kod](https://github.com/Enskygr234/Winterball)
+</td>
+<td width="50%" valign="top">
+<a href="https://enskygr234.github.io/ensdewloper.github.io/tarifler/"><img src="docs/tarifler.png" alt="Yemek Tarifleri"></a>
 
-</div>
+**🍲 Yemek Tarifleri** · *yeni*<br>
+12 Türk tarifi, porsiyon hesabı, adım zamanlayıcısı ve kendi tariflerin. İnternetsiz çalışır.<br>
+[⬇ APK](https://github.com/Enskygr234/ensdewloper.github.io/releases/latest) · [Tarayıcıda aç](https://enskygr234.github.io/ensdewloper.github.io/tarifler/)
+</td>
+</tr>
+</table>
 
-## 📱 Yeni: Yemek Tarifleri
+## 🧰 Bütün projeler
 
-Telefona özel tarif uygulaması. 12 hazır Türk tarifi, kişi sayısına göre otomatik hesaplanan malzemeler, adım adım zamanlayıcı, favoriler ve kendi tariflerini ekleme. İnternetsiz çalışır.
+**📱 Telefon**
 
-<div align="center">
+| Proje | Ne yapar | |
+|---|---|---|
+| ⚽ [**Winterball**](https://github.com/Enskygr234/Winterball) | Canlı skorlar, maç olayları, kadrolar, puan durumları; favori takım gol uyarısı | [APK](https://github.com/Enskygr234/Winterball/releases/download/son-surum/Winterball.apk) |
+| 🍲 [**Yemek Tarifleri**](https://github.com/Enskygr234/ensdewloper.github.io/tree/main/tarifler) | Porsiyon hesaplayan, zamanlayıcılı tarif uygulaması | [APK](https://github.com/Enskygr234/ensdewloper.github.io/releases/latest) |
+| 🏮 [**Ayaz Ata'nın Feneri**](https://github.com/Enskygr234/ensdewloper.github.io/tree/main/ayaz-feneri) | 3 bölümlük hikâyeli platform oyunu, Karakoncolos ile kapışma | [APK](https://github.com/Enskygr234/ensdewloper.github.io/releases/download/ayaz-feneri/AyazFeneri.apk) |
 
-[![APK indir](https://img.shields.io/badge/⬇_APK_indir-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Enskygr234/ensdewloper.github.io/releases/latest)
-[![Tarayıcıda aç](https://img.shields.io/badge/Tarayıcıda_aç-🍲-c2410c?style=for-the-badge)](https://enskygr234.github.io/ensdewloper.github.io/tarifler/)
+**🎮 Oyunlar**
 
-</div>
+| Proje | Ne yapar | |
+|---|---|---|
+| ❄️ [**Son Kış**](https://github.com/Enskygr234/son-kis) | Türk ve Anadolu masallarından ruhlarla geçen bir macera oyunu (C#) | [indir](https://github.com/Enskygr234/son-kis/releases/latest) |
+| 🛷 [**Kızak**](https://github.com/Enskygr234/kizak) | Sonsuz yokuş aşağı kızak oyunu; telefonda da oynanır | [oyna](https://enskygr234.github.io/kizak/) |
+| 🎮 [**Tarayıcı oyunları**](https://github.com/Enskygr234/ensdewloper.github.io) | Yılan, Pong, Tic Tac Toe, Taş Kâğıt Makas, Eşleştirme | [oyna](https://enskygr234.github.io/ensdewloper.github.io/oyunlar.html) |
 
-## 🔥 Öne çıkan: Son Kış
+**🖥️ Windows**
 
-<a href="https://github.com/Enskygr234/son-kis">
-  <img src="https://raw.githubusercontent.com/Enskygr234/son-kis/HEAD/docs/baslik.png" alt="Son Kış" width="100%">
-</a>
+| Proje | Ne yapar | |
+|---|---|---|
+| 🔒 [**Güvenlik Kilidi**](https://github.com/Enskygr234/GuvenlikKilidi) | PIN korumalı tam ekran kilit: hareket alarmı, telefona bildirim, saat ve hava durumu | |
+| 🖥️ [**Masaüstü Kar**](https://github.com/Enskygr234/masaustu-kar) | Windows masaüstüne kar yağdırır, tıklamaları engellemez | [indir](https://github.com/Enskygr234/masaustu-kar/releases/latest) |
+| 🌡️ [**ayaz**](https://github.com/Enskygr234/ayaz) | Terminalde hava durumu ve "kar ne zaman?" | [indir](https://github.com/Enskygr234/ayaz/releases/latest) |
 
-*Bir Nardugan masalı.* Gün üç gündür doğmuyor. Nar, ninesinin ocağından aldığı koru fenerine koyar ve Gün Ocağı'nı yeniden yakmak için zirveye çıkar. Yolda Karakoncolos, Şahmeran, Tepegöz ve Ayaz Ata gibi masal ruhları bekliyor — onları **ısıtabilir** ya da **yakabilirsin**.
+**🌐 Web**
 
-<div align="center">
-
-[![İndir](https://img.shields.io/badge/⬇_İndir-Windows_64_bit-e63946?style=for-the-badge)](https://github.com/Enskygr234/son-kis/releases/latest)
-[![Kaynak kod](https://img.shields.io/badge/Kaynak_kod-C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://github.com/Enskygr234/son-kis)
-
-</div>
-
-| | |
-|---|---|
-| ![Orman](https://raw.githubusercontent.com/Enskygr234/son-kis/HEAD/docs/orman.png) | ![Savaş](https://raw.githubusercontent.com/Enskygr234/son-kis/HEAD/docs/savas.png) |
-
-## 🧰 Projelerim
-
-| Proje | Ne yapar | Dil | |
-|---|---|---|---|
-| ❄️ [**Son Kış**](https://github.com/Enskygr234/son-kis) | Türk ve Anadolu masallarından ruhlarla geçen bir macera oyunu | C# | [indir](https://github.com/Enskygr234/son-kis/releases/latest) |
-| 🔒 [**Güvenlik Kilidi**](https://github.com/Enskygr234/GuvenlikKilidi) | PIN korumalı tam ekran kilit: hareket alarmı, telefona bildirim, saat ve hava durumu | C# | |
-| 🌨️ [**kar.js**](https://github.com/Enskygr234/kar-js) | Web sayfana tek satırla kar yağdıran kütüphane | JavaScript | [demo](https://enskygr234.github.io/kar-js/) |
-| ✳️ [**Kar Tanesi**](https://github.com/Enskygr234/kar-tanesi) | Adını yaz, sana özel kar tanesi üretsin | JavaScript | [demo](https://enskygr234.github.io/kar-tanesi/) |
-| 🌡️ [**ayaz**](https://github.com/Enskygr234/ayaz) | Terminalde hava durumu ve "kar ne zaman?" | C# | [indir](https://github.com/Enskygr234/ayaz/releases/latest) |
-| 🛷 [**Kızak**](https://github.com/Enskygr234/kizak) | Sonsuz yokuş aşağı kızak oyunu; telefonda da oynanır | JavaScript | [oyna](https://enskygr234.github.io/kizak/) |
-| 🌅 [**Nardugan**](https://github.com/Enskygr234/nardugan) | Kış gündönümüne canlı geri sayım; anı astronomik olarak hesaplar | JavaScript | [aç](https://enskygr234.github.io/nardugan/) |
-| 🖥️ [**Masaüstü Kar**](https://github.com/Enskygr234/masaustu-kar) | Windows masaüstüne kar yağdırır, tıklamaları engellemez | C# | [indir](https://github.com/Enskygr234/masaustu-kar/releases/latest) |
-| ⚽ [**Winterball**](https://github.com/Enskygr234/Winterball) | Canlı skor uygulaması: maç olayları, kadrolar, istatistikler, puan durumları, favori takım gol uyarısı | JavaScript | [APK](https://github.com/Enskygr234/Winterball/releases/download/son-surum/Winterball.apk) |
-| 🏮 [**Ayaz Ata'nın Feneri**](https://github.com/Enskygr234/ensdewloper.github.io/tree/main/ayaz-feneri) | Hikâyeli 2D platform oyunu: 3 bölüm ve Karakoncolos ile kapışma, telefonda oynanır | JavaScript | [APK](https://github.com/Enskygr234/ensdewloper.github.io/releases/download/ayaz-feneri/AyazFeneri.apk) |
-| 🍲 [**Yemek Tarifleri**](https://github.com/Enskygr234/ensdewloper.github.io/tree/main/tarifler) | Telefona özel tarif uygulaması: zamanlayıcı, porsiyon hesabı, favoriler | JavaScript | [APK](https://github.com/Enskygr234/ensdewloper.github.io/releases/latest) |
-| 🎮 [**Tarayıcı oyunları**](https://github.com/Enskygr234/ensdewloper.github.io) | Yılan, Pong, Tic Tac Toe, Taş Kâğıt Makas, Eşleştirme | HTML / JS | [oyna](https://enskygr234.github.io/ensdewloper.github.io/oyunlar.html) |
+| Proje | Ne yapar | |
+|---|---|---|
+| 🌨️ [**kar.js**](https://github.com/Enskygr234/kar-js) | Web sayfana tek satırla kar yağdıran kütüphane | [demo](https://enskygr234.github.io/kar-js/) |
+| ✳️ [**Kar Tanesi**](https://github.com/Enskygr234/kar-tanesi) | Adını yaz, sana özel kar tanesi üretsin | [aç](https://enskygr234.github.io/kar-tanesi/) |
+| 🌅 [**Nardugan**](https://github.com/Enskygr234/nardugan) | Kış gündönümüne canlı geri sayım; anı astronomik olarak hesaplar | [aç](https://enskygr234.github.io/nardugan/) |
 
 ## 📦 Son yayınlar
 
 <!-- YAYIN:BASLA -->
-| Proje | Sürüm | Tarih |
-|---|---|---|
-| **ensdewloper.github.io** | [Yemek Tarifleri (sürüm 2)](https://github.com/Enskygr234/ensdewloper.github.io/releases/tag/tarifler-2) | 13 Ekim 2026 |
-| **masaustu-kar** | [Masaüstü Kar v1.0](https://github.com/Enskygr234/masaustu-kar/releases/tag/v1.0.0) | 13 Ekim 2026 |
-| **ayaz** | [ayaz v1.0](https://github.com/Enskygr234/ayaz/releases/tag/v1.0.0) | 13 Ekim 2026 |
-| **son-kis** | [Son Kış v1.0](https://github.com/Enskygr234/son-kis/releases/tag/v1.0) | 13 Ekim 2026 |
 <!-- YAYIN:BITIS -->
 
 ## ✳️ Bugünün kar taneleri
@@ -125,6 +121,7 @@ Telefona özel tarif uygulaması. 12 hazır Türk tarifi, kişi sayısına göre
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![SVG](https://img.shields.io/badge/SVG-FFB13B?style=flat-square&logo=svg&logoColor=black)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 *❄️ Kış gelir, kod yazılır. ❄️*

@@ -59,10 +59,10 @@ def yayin_bolumu():
     if not yayinlar:
         return None
     yayinlar.sort(reverse=True)
-    satirlar = ["| Proje | Sürüm | Tarih |", "|---|---|---|"]
+    satirlar = ["| Yayın | Depo | Tarih |", "|---|---|---|"]
     for zaman, repo, ad, link in yayinlar[:5]:
         gun = dt.datetime.fromisoformat(zaman.replace("Z", "+00:00")).astimezone(TR).date()
-        satirlar.append(f"| **{repo}** | [{ad}]({link}) | {tarih_yaz(gun)} |")
+        satirlar.append(f"| [**{ad}**]({link}) | [{repo}](https://github.com/{KULLANICI}/{repo}) | {tarih_yaz(gun)} |")
     return "\n".join(satirlar)
 
 
