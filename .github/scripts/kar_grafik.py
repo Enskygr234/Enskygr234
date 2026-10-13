@@ -142,10 +142,10 @@ def svg_uret(gunler, toplam, tema_adi, tohum):
     for sutun, satir, seviye, _ in hucreler:
         x, y = SOL + sutun * ADIM, UST + satir * ADIM
         p.append(f'<rect x="{x}" y="{y}" width="{HUCRE}" height="{HUCRE}" rx="2.5" fill="{t["seviye"][seviye]}"/>')
-        if seviye > 0:
-            # Kar soldan sağa, hafif rastgele sırayla birikir
+        if True:
+            # Kar soldan sağa, hafif rastgele sırayla her karenin üstünde birikir
             gecikme = sutun / sutun_sayisi * dongu * 0.55 + rnd.uniform(0, 2.5)
-            kalinlik = 2 + seviye  # çok katkı = kalın kar
+            kalinlik = 2.5 + seviye * 1.2  # çok katkı = kalın kar
             ortular.append(
                 f'<rect class="ortu" style="animation-delay:{gecikme:.2f}s" x="{x - .5}" y="{y - 1}" '
                 f'width="{HUCRE + 1}" height="{kalinlik}" rx="{kalinlik / 2:.1f}"/>')
