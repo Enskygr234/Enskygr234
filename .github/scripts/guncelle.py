@@ -53,9 +53,9 @@ def yayin_bolumu():
     for repo in repolar:
         if repo.get("fork") or repo["name"].lower() == KULLANICI.lower():
             continue
-        y = api(f"repos/{KULLANICI}/{repo['name']}/releases/latest")
-        if y and y.get("published_at"):
-            yayinlar.append((y["published_at"], repo["name"], y.get("name") or y["tag_name"], y["html_url"]))
+        for y in (api(f"repos/{KULLANICI}/{repo['name']}/releases?per_page=5") or []):
+            if y.get("published_at") and not y.get("draft"):
+                yayinlar.append((y["published_at"], repo["name"], y.get("name") or y["tag_name"], y["html_url"]))
     if not yayinlar:
         return None
     yayinlar.sort(reverse=True)
