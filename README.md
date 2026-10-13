@@ -2,12 +2,33 @@
 
 ![Winterdeveloper](afis.svg)
 
-**Kışı seven bir geliştirici — oyunlar, küçük Windows araçları ve kar yağan web sayfaları yapıyorum.**
+**Kışı seven bir geliştirici — oyunlar, küçük Windows araçları, telefon uygulamaları ve kar yağan web sayfaları yapıyorum.**
 
 [![Web sitem](https://img.shields.io/badge/Web_sitem-winterhub-8ecae6?style=for-the-badge)](https://winterhub.rf.gd/?i=1)
 [![Tarayıcı oyunları](https://img.shields.io/badge/Tarayıcı_oyunları-oyna-219ebc?style=for-the-badge)](https://enskygr234.github.io/ensdewloper.github.io/oyunlar.html)
 [![Kızak oyna](https://img.shields.io/badge/Kızak-oyna-e63946?style=for-the-badge)](https://enskygr234.github.io/kizak/)
 [![Kar tanemi göster](https://img.shields.io/badge/Kar_tanemi_göster-❄-bfe6ff?style=for-the-badge)](https://enskygr234.github.io/kar-tanesi/)
+
+</div>
+
+<!-- KIS:BASLA -->
+<div align="center">
+
+🌅 Nardugan'a (kış gündönümü) **69 gün** kaldı &nbsp; `❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄····`
+
+<sub>Her gün kendiliğinden güncellenir · son: 13 Ekim 2026</sub>
+
+</div>
+<!-- KIS:BITIS -->
+
+## 📱 Yeni: Yemek Tarifleri
+
+Telefona özel tarif uygulaması. 12 hazır Türk tarifi, kişi sayısına göre otomatik hesaplanan malzemeler, adım adım zamanlayıcı, favoriler ve kendi tariflerini ekleme. İnternetsiz çalışır.
+
+<div align="center">
+
+[![APK indir](https://img.shields.io/badge/⬇_APK_indir-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Enskygr234/ensdewloper.github.io/releases/latest)
+[![Tarayıcıda aç](https://img.shields.io/badge/Tarayıcıda_aç-🍲-c2410c?style=for-the-badge)](https://enskygr234.github.io/ensdewloper.github.io/tarifler/)
 
 </div>
 
@@ -42,7 +63,13 @@
 | 🛷 [**Kızak**](https://github.com/Enskygr234/kizak) | Sonsuz yokuş aşağı kızak oyunu; telefonda da oynanır | JavaScript | [oyna](https://enskygr234.github.io/kizak/) |
 | 🌅 [**Nardugan**](https://github.com/Enskygr234/nardugan) | Kış gündönümüne canlı geri sayım; anı astronomik olarak hesaplar | JavaScript | [aç](https://enskygr234.github.io/nardugan/) |
 | 🖥️ [**Masaüstü Kar**](https://github.com/Enskygr234/masaustu-kar) | Windows masaüstüne kar yağdırır, tıklamaları engellemez | C# | [indir](https://github.com/Enskygr234/masaustu-kar/releases/latest) |
+| 🍲 [**Yemek Tarifleri**](https://github.com/Enskygr234/ensdewloper.github.io/tree/main/tarifler) | Telefona özel tarif uygulaması: zamanlayıcı, porsiyon hesabı, favoriler | JavaScript | [APK](https://github.com/Enskygr234/ensdewloper.github.io/releases/latest) |
 | 🎮 [**Tarayıcı oyunları**](https://github.com/Enskygr234/ensdewloper.github.io) | Yılan, Pong, Tic Tac Toe, Taş Kâğıt Makas, Eşleştirme | HTML / JS | [oyna](https://enskygr234.github.io/ensdewloper.github.io/oyunlar.html) |
+
+## 📦 Son yayınlar
+
+<!-- YAYIN:BASLA -->
+<!-- YAYIN:BITIS -->
 
 ## ✳️ Bugünün kar taneleri
 
@@ -67,6 +94,8 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![SVG](https://img.shields.io/badge/SVG-FFB13B?style=flat-square&logo=svg&logoColor=black)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 *❄️ Kış gelir, kod yazılır. ❄️*
 

@@ -1,0 +1,35 @@
+# Profil README'sindeki "Nardugan'a kaç gün" ve "Son yayınlar" bölümlerini her gün günceller.
+name: Profili güncelle
+
+on:
+  schedule:
+    - cron: "7 21 * * *"   # her gece 00:07 (İstanbul)
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/scripts/guncelle.py"
+      - ".github/workflows/profil.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  guncelle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: README'yi güncelle
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/scripts/guncelle.py
+      - name: Değişiklik varsa kaydet
+        run: |
+          if git diff --quiet; then echo "Değişiklik yok"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git commit -am "❄️ Profil otomatik güncellendi"
+          git push
