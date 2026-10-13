@@ -121,8 +121,10 @@ def svg_uret(gunler, toplam, tema_adi, tohum):
   @keyframes dus{{from{{transform:translate(0,-20px)}}to{{transform:translate(var(--sx),{yuk + 20}px)}}}}
   .ortu{{fill:{t['kar']};stroke:{t['kar_kenar']};stroke-width:.5;opacity:0;animation:ort {dongu}s ease-out infinite}}
   @keyframes ort{{0%{{opacity:0}}6%{{opacity:1}}88%{{opacity:1}}96%,100%{{opacity:0}}}}
+  .kirag{{fill:{t['kar']};opacity:0;animation:kir {dongu}s ease-out infinite}}
+  @keyframes kir{{0%{{opacity:0}}8%{{opacity:.28}}88%{{opacity:.28}}96%,100%{{opacity:0}}}}
   .ortu,.tane{{will-change:transform,opacity}}
-  @media (prefers-reduced-motion:reduce){{.tane{{display:none}}.ortu{{animation:none;opacity:1}}}}
+  @media (prefers-reduced-motion:reduce){{.tane{{display:none}}.ortu{{animation:none;opacity:1}}.kirag{{animation:none;opacity:.28}}}}
 </style>""")
     p.append(f'<rect width="{gen}" height="{yuk}" rx="10" fill="{t["zemin"]}"/>')
 
@@ -142,10 +144,15 @@ def svg_uret(gunler, toplam, tema_adi, tohum):
     for sutun, satir, seviye, _ in hucreler:
         x, y = SOL + sutun * ADIM, UST + satir * ADIM
         p.append(f'<rect x="{x}" y="{y}" width="{HUCRE}" height="{HUCRE}" rx="2.5" fill="{t["seviye"][seviye]}"/>')
-        if True:
-            # Kar soldan sağa, hafif rastgele sırayla her karenin üstünde birikir
-            gecikme = sutun / sutun_sayisi * dongu * 0.55 + rnd.uniform(0, 2.5)
-            kalinlik = 2.5 + seviye * 1.2  # çok katkı = kalın kar
+        # Kar soldan sağa, hafif rastgele sırayla birikir
+        gecikme = sutun / sutun_sayisi * dongu * 0.55 + rnd.uniform(0, 2.5)
+        if seviye == 0:
+            # Boş kareler yavaşça kırağıyla kaplanır
+            ortular.append(
+                f'<rect class="kirag" style="animation-delay:{gecikme:.2f}s" x="{x}" y="{y}" '
+                f'width="{HUCRE}" height="{HUCRE}" rx="2.5"/>')
+        else:
+            kalinlik = 2 + seviye  # çok katkı = kalın kar
             ortular.append(
                 f'<rect class="ortu" style="animation-delay:{gecikme:.2f}s" x="{x - .5}" y="{y - 1}" '
                 f'width="{HUCRE + 1}" height="{kalinlik}" rx="{kalinlik / 2:.1f}"/>')
