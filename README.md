@@ -12,6 +12,13 @@
 </div>
 
 <!-- KIS:BASLA -->
+<div align="center">
+
+🌅 Nardugan'a (kış gündönümü) **69 gün** kaldı &nbsp; `❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄····`
+
+<sub>Her gün kendiliğinden güncellenir · son: 13 Ekim 2026</sub>
+
+</div>
 <!-- KIS:BITIS -->
 
 <div align="center">
@@ -95,6 +102,13 @@ Canlı skor uygulaması: goller, kartlar, kadrolar, istatistikler ve 14 ligin pu
 ## 📦 Son yayınlar
 
 <!-- YAYIN:BASLA -->
+| Yayın | Depo | Tarih |
+|---|---|---|
+| [**Winterball (son sürüm)**](https://github.com/Enskygr234/Winterball/releases/tag/son-surum) | [Winterball](https://github.com/Enskygr234/Winterball) | 13 Ekim 2026 |
+| [**Yemek Tarifleri (sürüm 2)**](https://github.com/Enskygr234/ensdewloper.github.io/releases/tag/tarifler-2) | [ensdewloper.github.io](https://github.com/Enskygr234/ensdewloper.github.io) | 13 Ekim 2026 |
+| [**Masaüstü Kar v1.0**](https://github.com/Enskygr234/masaustu-kar/releases/tag/v1.0.0) | [masaustu-kar](https://github.com/Enskygr234/masaustu-kar) | 13 Ekim 2026 |
+| [**ayaz v1.0**](https://github.com/Enskygr234/ayaz/releases/tag/v1.0.0) | [ayaz](https://github.com/Enskygr234/ayaz) | 13 Ekim 2026 |
+| [**Son Kış v1.0**](https://github.com/Enskygr234/son-kis/releases/tag/v1.0) | [son-kis](https://github.com/Enskygr234/son-kis) | 13 Ekim 2026 |
 <!-- YAYIN:BITIS -->
 
 ## ✳️ Bugünün kar taneleri
