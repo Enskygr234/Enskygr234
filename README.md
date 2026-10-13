@@ -6,6 +6,7 @@
 
 [![Web sitem](https://img.shields.io/badge/Web_sitem-winterhub-8ecae6?style=for-the-badge)](https://winterhub.rf.gd/?i=1)
 [![Tarayıcı oyunları](https://img.shields.io/badge/Tarayıcı_oyunları-oyna-219ebc?style=for-the-badge)](https://enskygr234.github.io/ensdewloper.github.io/oyunlar.html)
+[![Kızak oyna](https://img.shields.io/badge/Kızak-oyna-e63946?style=for-the-badge)](https://enskygr234.github.io/kizak/)
 [![Kar tanemi göster](https://img.shields.io/badge/Kar_tanemi_göster-❄-bfe6ff?style=for-the-badge)](https://enskygr234.github.io/kar-tanesi/)
 
 </div>
@@ -38,6 +39,9 @@
 | 🌨️ [**kar.js**](https://github.com/Enskygr234/kar-js) | Web sayfana tek satırla kar yağdıran kütüphane | JavaScript | [demo](https://enskygr234.github.io/kar-js/) |
 | ✳️ [**Kar Tanesi**](https://github.com/Enskygr234/kar-tanesi) | Adını yaz, sana özel kar tanesi üretsin | JavaScript | [demo](https://enskygr234.github.io/kar-tanesi/) |
 | 🌡️ [**ayaz**](https://github.com/Enskygr234/ayaz) | Terminalde hava durumu ve "kar ne zaman?" | C# | [indir](https://github.com/Enskygr234/ayaz/releases/latest) |
+| 🛷 [**Kızak**](https://github.com/Enskygr234/kizak) | Sonsuz yokuş aşağı kızak oyunu; telefonda da oynanır | JavaScript | [oyna](https://enskygr234.github.io/kizak/) |
+| 🌅 [**Nardugan**](https://github.com/Enskygr234/nardugan) | Kış gündönümüne canlı geri sayım; anı astronomik olarak hesaplar | JavaScript | [aç](https://enskygr234.github.io/nardugan/) |
+| 🖥️ [**Masaüstü Kar**](https://github.com/Enskygr234/masaustu-kar) | Windows masaüstüne kar yağdırır, tıklamaları engellemez | C# | [indir](https://github.com/Enskygr234/masaustu-kar/releases/latest) |
 | 🎮 [**Tarayıcı oyunları**](https://github.com/Enskygr234/ensdewloper.github.io) | Yılan, Pong, Tic Tac Toe, Taş Kâğıt Makas, Eşleştirme | HTML / JS | [oyna](https://enskygr234.github.io/ensdewloper.github.io/oyunlar.html) |
 
 ## ✳️ Bugünün kar taneleri
