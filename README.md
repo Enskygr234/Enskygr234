@@ -71,6 +71,7 @@ Canlı skor uygulaması: goller, kartlar, kadrolar, istatistikler ve 14 ligin pu
 
 | Proje | Ne yapar | |
 |---|---|---|
+| 🔤 [**Ayazle**](https://github.com/Enskygr234/ayazle) · *yeni* | Türkçe kelime oyunu: her gün yeni kelime, süreli mod, bulunca anlamını öğret | [oyna](https://enskygr234.github.io/ayazle/) |
 | ⚽ [**Winterball**](https://github.com/Enskygr234/Winterball) | Canlı skorlar, maç olayları, kadrolar, puan durumları; favori takım gol uyarısı | [APK](https://github.com/Enskygr234/Winterball/releases/download/son-surum/Winterball.apk) · [web](https://enskygr234.github.io/Winterball/) |
 | 🍲 [**Yemek Tarifleri**](https://github.com/Enskygr234/ensdewloper.github.io/tree/main/tarifler) | Porsiyon hesaplayan, zamanlayıcılı tarif uygulaması | [APK](https://github.com/Enskygr234/ensdewloper.github.io/releases/latest) |
 | 🏮 [**Ayaz Ata'nın Feneri**](https://github.com/Enskygr234/ensdewloper.github.io/tree/main/ayaz-feneri) | 3 bölümlük hikâyeli platform oyunu, Karakoncolos ile kapışma | [APK](https://github.com/Enskygr234/ensdewloper.github.io/releases/download/ayaz-feneri/AyazFeneri.apk) |
