@@ -53,7 +53,7 @@ Bir Nardugan masalı. Karakoncolos, Şahmeran, Tepegöz ve Ayaz Ata'yla karşıl
 
 **⚽ Winterball** · *yeni*<br>
 Canlı skor uygulaması: goller, kartlar, kadrolar, istatistikler ve 14 ligin puan durumu.<br>
-[⬇ APK](https://github.com/Enskygr234/Winterball/releases/download/son-surum/Winterball.apk) · [Kaynak kod](https://github.com/Enskygr234/Winterball)
+[⬇ APK](https://github.com/Enskygr234/Winterball/releases/download/son-surum/Winterball.apk) · [▶ Tarayıcıda aç](https://enskygr234.github.io/Winterball/) · [Kaynak kod](https://github.com/Enskygr234/Winterball)
 </td>
 <td width="50%" valign="top">
 <a href="https://enskygr234.github.io/ensdewloper.github.io/tarifler/"><img src="docs/tarifler.png" alt="Yemek Tarifleri"></a>
@@ -71,7 +71,7 @@ Canlı skor uygulaması: goller, kartlar, kadrolar, istatistikler ve 14 ligin pu
 
 | Proje | Ne yapar | |
 |---|---|---|
-| ⚽ [**Winterball**](https://github.com/Enskygr234/Winterball) | Canlı skorlar, maç olayları, kadrolar, puan durumları; favori takım gol uyarısı | [APK](https://github.com/Enskygr234/Winterball/releases/download/son-surum/Winterball.apk) |
+| ⚽ [**Winterball**](https://github.com/Enskygr234/Winterball) | Canlı skorlar, maç olayları, kadrolar, puan durumları; favori takım gol uyarısı | [APK](https://github.com/Enskygr234/Winterball/releases/download/son-surum/Winterball.apk) · [web](https://enskygr234.github.io/Winterball/) |
 | 🍲 [**Yemek Tarifleri**](https://github.com/Enskygr234/ensdewloper.github.io/tree/main/tarifler) | Porsiyon hesaplayan, zamanlayıcılı tarif uygulaması | [APK](https://github.com/Enskygr234/ensdewloper.github.io/releases/latest) |
 | 🏮 [**Ayaz Ata'nın Feneri**](https://github.com/Enskygr234/ensdewloper.github.io/tree/main/ayaz-feneri) | 3 bölümlük hikâyeli platform oyunu, Karakoncolos ile kapışma | [APK](https://github.com/Enskygr234/ensdewloper.github.io/releases/download/ayaz-feneri/AyazFeneri.apk) |
 
@@ -87,6 +87,7 @@ Canlı skor uygulaması: goller, kartlar, kadrolar, istatistikler ve 14 ligin pu
 
 | Proje | Ne yapar | |
 |---|---|---|
+| 🚀 [**Ayaz Launcher**](https://github.com/Enskygr234/Ayaz-launcher) · *yeni* | `Ctrl + Space` ile açılan 5 yuvalı, buzlu cam görünümlü hızlı başlatıcı | [indir](https://github.com/Enskygr234/Ayaz-launcher/releases/latest) |
 | 🔒 [**Güvenlik Kilidi**](https://github.com/Enskygr234/GuvenlikKilidi) | PIN korumalı tam ekran kilit: hareket alarmı, telefona bildirim, saat ve hava durumu | |
 | 🖥️ [**Masaüstü Kar**](https://github.com/Enskygr234/masaustu-kar) | Windows masaüstüne kar yağdırır, tıklamaları engellemez | [indir](https://github.com/Enskygr234/masaustu-kar/releases/latest) |
 | 🌡️ [**ayaz**](https://github.com/Enskygr234/ayaz) | Terminalde hava durumu ve "kar ne zaman?" | [indir](https://github.com/Enskygr234/ayaz/releases/latest) |
