@@ -56,11 +56,11 @@ Canlı skor uygulaması: goller, kartlar, kadrolar, istatistikler ve 14 ligin pu
 [⬇ APK](https://github.com/Enskygr234/Winterball/releases/download/son-surum/Winterball.apk) · [▶ Tarayıcıda aç](https://enskygr234.github.io/Winterball/) · [Kaynak kod](https://github.com/Enskygr234/Winterball)
 </td>
 <td width="50%" valign="top">
-<a href="https://enskygr234.github.io/ensdewloper.github.io/tarifler/"><img src="docs/tarifler.png" alt="Yemek Tarifleri"></a>
+<a href="https://enskygr234.github.io/ayazle/"><img src="docs/ayazle.svg" alt="Ayazle"></a>
 
-**🍲 Yemek Tarifleri** · *yeni*<br>
-12 Türk tarifi, porsiyon hesabı, adım zamanlayıcısı ve kendi tariflerin. İnternetsiz çalışır.<br>
-[⬇ APK](https://github.com/Enskygr234/ensdewloper.github.io/releases/latest) · [Tarayıcıda aç](https://enskygr234.github.io/ensdewloper.github.io/tarifler/)
+**🔤 Ayazle** · *yeni*<br>
+Türkçe kelime oyunu: gizli kelimeyi 6 hakta bul, bulunca anlamını öğren. Her gün yeni kelime ve süreli mod. Fikir ve tasarım benden.<br>
+[▶ Tarayıcıda oyna](https://enskygr234.github.io/ayazle/) · [Kaynak kod](https://github.com/Enskygr234/ayazle)
 </td>
 </tr>
 </table>
