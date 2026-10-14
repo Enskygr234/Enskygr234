@@ -80,6 +80,8 @@ Türkçe kelime oyunu: gizli kelimeyi 6 hakta bul, bulunca anlamını öğren. H
 
 | Proje | Ne yapar | |
 |---|---|---|
+| 🧊 [**Buz Kırıcı**](https://github.com/Enskygr234/buz-kirici) · *yeni* | Kartopuyla buz bloklarını kır: 8 bölüm, güçlendirmeler | [oyna](https://enskygr234.github.io/buz-kirici/) |
+| ⛄ [**Kar Birleştir**](https://github.com/Enskygr234/kar-birlestir) · *yeni* | 2048 tarzı kış bulmacası, hedef Ayaz Ata | [oyna](https://enskygr234.github.io/kar-birlestir/) |
 | ❄️ [**Son Kış**](https://github.com/Enskygr234/son-kis) | Türk ve Anadolu masallarından ruhlarla geçen bir macera oyunu (C#) | [indir](https://github.com/Enskygr234/son-kis/releases/latest) |
 | 🛷 [**Kızak**](https://github.com/Enskygr234/kizak) | Sonsuz yokuş aşağı kızak oyunu; telefonda da oynanır | [oyna](https://enskygr234.github.io/kizak/) |
 | 🎮 [**Tarayıcı oyunları**](https://github.com/Enskygr234/ensdewloper.github.io) | Yılan, Pong, Tic Tac Toe, Taş Kâğıt Makas, Eşleştirme | [oyna](https://enskygr234.github.io/ensdewloper.github.io/oyunlar.html) |
@@ -88,6 +90,7 @@ Türkçe kelime oyunu: gizli kelimeyi 6 hakta bul, bulunca anlamını öğren. H
 
 | Proje | Ne yapar | |
 |---|---|---|
+| ⌨️ [**Klavye Ayazı**](https://github.com/Enskygr234/klavye-ayazi) · *yeni* | Terminalde Türkçe klavye hız testi | [indir](https://github.com/Enskygr234/klavye-ayazi/releases/latest) |
 | 🧊 [**Buz Arşiv**](https://github.com/Enskygr234/buz-arsiv) · *yeni* | `Ctrl + Shift + F` ile dosyanı anında bul, "nereye kaydettim?" zaman çizelgesi, silineni tek tıkla geri getir | [indir](https://github.com/Enskygr234/buz-arsiv/releases/latest) |
 | 🚀 [**Ayaz Launcher**](https://github.com/Enskygr234/Ayaz-launcher) · *yeni* | `Ctrl + Space` ile açılan 5 yuvalı, buzlu cam görünümlü hızlı başlatıcı | [indir](https://github.com/Enskygr234/Ayaz-launcher/releases/latest) |
 | 🔒 [**Güvenlik Kilidi**](https://github.com/Enskygr234/GuvenlikKilidi) | PIN korumalı tam ekran kilit: hareket alarmı, telefona bildirim, saat ve hava durumu | |
@@ -98,6 +101,8 @@ Türkçe kelime oyunu: gizli kelimeyi 6 hakta bul, bulunca anlamını öğren. H
 
 | Proje | Ne yapar | |
 |---|---|---|
+| 🔐 [**Buz Şifre**](https://github.com/Enskygr234/buz-sifre) · *yeni* | Türkçe kelimelerden akılda kalan güçlü şifreler | [aç](https://enskygr234.github.io/buz-sifre/) |
+| 🎨 [**Piksel Ayaz**](https://github.com/Enskygr234/piksel-ayaz) · *yeni* | Tarayıcıda piksel sanatı çiz, PNG indir | [çiz](https://enskygr234.github.io/piksel-ayaz/) |
 | 🌨️ [**kar.js**](https://github.com/Enskygr234/kar-js) | Web sayfana tek satırla kar yağdıran kütüphane | [demo](https://enskygr234.github.io/kar-js/) |
 | ✳️ [**Kar Tanesi**](https://github.com/Enskygr234/kar-tanesi) | Adını yaz, sana özel kar tanesi üretsin | [aç](https://enskygr234.github.io/kar-tanesi/) |
 | 🌅 [**Nardugan**](https://github.com/Enskygr234/nardugan) | Kış gündönümüne canlı geri sayım; anı astronomik olarak hesaplar | [aç](https://enskygr234.github.io/nardugan/) |
