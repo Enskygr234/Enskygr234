@@ -60,7 +60,7 @@ Canlı skor uygulaması: goller, kartlar, kadrolar, istatistikler ve 14 ligin pu
 
 **🔤 Ayazle** · *yeni*<br>
 Türkçe kelime oyunu: gizli kelimeyi 6 hakta bul, bulunca anlamını öğren. Her gün yeni kelime ve süreli mod. Fikir ve tasarım benden.<br>
-[▶ Tarayıcıda oyna](https://enskygr234.github.io/ayazle/) · [Kaynak kod](https://github.com/Enskygr234/ayazle)
+[⬇ APK](https://github.com/Enskygr234/ayazle/releases/download/son-surum/Ayazle.apk) · [▶ Tarayıcıda oyna](https://enskygr234.github.io/ayazle/) · [Kaynak kod](https://github.com/Enskygr234/ayazle)
 </td>
 </tr>
 </table>
@@ -71,7 +71,7 @@ Türkçe kelime oyunu: gizli kelimeyi 6 hakta bul, bulunca anlamını öğren. H
 
 | Proje | Ne yapar | |
 |---|---|---|
-| 🔤 [**Ayazle**](https://github.com/Enskygr234/ayazle) · *yeni* | Türkçe kelime oyunu: her gün yeni kelime, süreli mod, bulunca anlamını öğret | [oyna](https://enskygr234.github.io/ayazle/) |
+| 🔤 [**Ayazle**](https://github.com/Enskygr234/ayazle) · *yeni* | Türkçe kelime oyunu: her gün yeni kelime, süreli mod, bulunca anlamını öğret | [oyna](https://enskygr234.github.io/ayazle/) · [APK](https://github.com/Enskygr234/ayazle/releases/download/son-surum/Ayazle.apk) |
 | ⚽ [**Winterball**](https://github.com/Enskygr234/Winterball) | Canlı skorlar, maç olayları, kadrolar, puan durumları; favori takım gol uyarısı | [APK](https://github.com/Enskygr234/Winterball/releases/download/son-surum/Winterball.apk) · [web](https://enskygr234.github.io/Winterball/) |
 | 🍲 [**Yemek Tarifleri**](https://github.com/Enskygr234/ensdewloper.github.io/tree/main/tarifler) | Porsiyon hesaplayan, zamanlayıcılı tarif uygulaması | [APK](https://github.com/Enskygr234/ensdewloper.github.io/releases/latest) |
 | 🏮 [**Ayaz Ata'nın Feneri**](https://github.com/Enskygr234/ensdewloper.github.io/tree/main/ayaz-feneri) | 3 bölümlük hikâyeli platform oyunu, Karakoncolos ile kapışma | [APK](https://github.com/Enskygr234/ensdewloper.github.io/releases/download/ayaz-feneri/AyazFeneri.apk) |
@@ -80,8 +80,8 @@ Türkçe kelime oyunu: gizli kelimeyi 6 hakta bul, bulunca anlamını öğren. H
 
 | Proje | Ne yapar | |
 |---|---|---|
-| 🧊 [**Buz Kırıcı**](https://github.com/Enskygr234/buz-kirici) · *yeni* | Kartopuyla buz bloklarını kır: 8 bölüm, güçlendirmeler | [oyna](https://enskygr234.github.io/buz-kirici/) |
-| ⛄ [**Kar Birleştir**](https://github.com/Enskygr234/kar-birlestir) · *yeni* | 2048 tarzı kış bulmacası, hedef Ayaz Ata | [oyna](https://enskygr234.github.io/kar-birlestir/) |
+| 🧊 [**Buz Kırıcı**](https://github.com/Enskygr234/buz-kirici) · *yeni* | Kartopuyla buz bloklarını kır: 8 bölüm, güçlendirmeler | [oyna](https://enskygr234.github.io/buz-kirici/) · [APK](https://github.com/Enskygr234/buz-kirici/releases/download/son-surum/BuzKirici.apk) |
+| ⛄ [**Kar Birleştir**](https://github.com/Enskygr234/kar-birlestir) · *yeni* | 2048 tarzı kış bulmacası, hedef Ayaz Ata | [oyna](https://enskygr234.github.io/kar-birlestir/) · [APK](https://github.com/Enskygr234/kar-birlestir/releases/download/son-surum/KarBirlestir.apk) |
 | ❄️ [**Son Kış**](https://github.com/Enskygr234/son-kis) | Türk ve Anadolu masallarından ruhlarla geçen bir macera oyunu (C#) | [indir](https://github.com/Enskygr234/son-kis/releases/latest) |
 | 🛷 [**Kızak**](https://github.com/Enskygr234/kizak) | Sonsuz yokuş aşağı kızak oyunu; telefonda da oynanır | [oyna](https://enskygr234.github.io/kizak/) |
 | 🎮 [**Tarayıcı oyunları**](https://github.com/Enskygr234/ensdewloper.github.io) | Yılan, Pong, Tic Tac Toe, Taş Kâğıt Makas, Eşleştirme | [oyna](https://enskygr234.github.io/ensdewloper.github.io/oyunlar.html) |
