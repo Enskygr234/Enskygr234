@@ -88,6 +88,7 @@ Türkçe kelime oyunu: gizli kelimeyi 6 hakta bul, bulunca anlamını öğren. H
 
 | Proje | Ne yapar | |
 |---|---|---|
+| 🧊 [**Buz Arşiv**](https://github.com/Enskygr234/buz-arsiv) · *yeni* | `Ctrl + Shift + F` ile dosyanı anında bul, "nereye kaydettim?" zaman çizelgesi, silineni tek tıkla geri getir | [indir](https://github.com/Enskygr234/buz-arsiv/releases/latest) |
 | 🚀 [**Ayaz Launcher**](https://github.com/Enskygr234/Ayaz-launcher) · *yeni* | `Ctrl + Space` ile açılan 5 yuvalı, buzlu cam görünümlü hızlı başlatıcı | [indir](https://github.com/Enskygr234/Ayaz-launcher/releases/latest) |
 | 🔒 [**Güvenlik Kilidi**](https://github.com/Enskygr234/GuvenlikKilidi) | PIN korumalı tam ekran kilit: hareket alarmı, telefona bildirim, saat ve hava durumu | |
 | 🖥️ [**Masaüstü Kar**](https://github.com/Enskygr234/masaustu-kar) | Windows masaüstüne kar yağdırır, tıklamaları engellemez | [indir](https://github.com/Enskygr234/masaustu-kar/releases/latest) |
