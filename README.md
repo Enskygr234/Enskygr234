@@ -73,7 +73,7 @@ Hikâyeli platform oyunu: Karakoncolos'tan yıldızları geri al.<br>
 
 ## 🧰 Bütün projelerim
 
-**🎮 Oyunlar** — [Mahalle](https://github.com/Enskygr234/mahalle) · [Kayıp Fener](https://github.com/Enskygr234/kayip-fener) · [Buz Kırıcı](https://github.com/Enskygr234/buz-kirici) · [Kar Birleştir](https://github.com/Enskygr234/kar-birlestir) · [Ayazle](https://github.com/Enskygr234/ayazle) · [Kızak](https://github.com/Enskygr234/kizak) · [Son Kış](https://github.com/Enskygr234/son-kis) · [Ayaz Ata'nın Feneri](https://github.com/Enskygr234/ensdewloper.github.io/tree/main/ayaz-feneri) · [Tarayıcı oyunları](https://enskygr234.github.io/ensdewloper.github.io/oyunlar.html)
+**🎮 Oyunlar** — [Son Tren](https://github.com/Enskygr234/Son-Tren) · [Mahalle](https://github.com/Enskygr234/mahalle) · [Kayıp Fener](https://github.com/Enskygr234/kayip-fener) · [Buz Kırıcı](https://github.com/Enskygr234/buz-kirici) · [Kar Birleştir](https://github.com/Enskygr234/kar-birlestir) · [Ayazle](https://github.com/Enskygr234/ayazle) · [Kızak](https://github.com/Enskygr234/kizak) · [Son Kış](https://github.com/Enskygr234/son-kis) · [Ayaz Ata'nın Feneri](https://github.com/Enskygr234/ensdewloper.github.io/tree/main/ayaz-feneri) · [Tarayıcı oyunları](https://enskygr234.github.io/ensdewloper.github.io/oyunlar.html)
 
 **📱 Uygulamalar** — [Winter Gym](https://github.com/Enskygr234/Winter-gym) · [Winterball](https://github.com/Enskygr234/Winterball) · [GolHaber](https://github.com/Enskygr234/golhaber) · [Yemek Tarifleri](https://github.com/Enskygr234/ensdewloper.github.io/tree/main/tarifler)
 
