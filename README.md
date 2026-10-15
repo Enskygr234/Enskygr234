@@ -22,10 +22,19 @@
 
 <table>
 <tr>
+<td colspan="2" valign="top">
+<a href="https://github.com/Enskygr234/Son-Vardiya"><img src="https://raw.githubusercontent.com/Enskygr234/Son-Vardiya/HEAD/docs/tanitim.gif" alt="Son Vardiya tanıtım videosu"></a>
+
+**🔦 Son Vardiya** · yeni<br>
+Yıkılmasına beş gün kalan bir AVM'de gece bekçisisin; telsizdeki eski bekçinin sırrını çöz. Birinci şahıs 3D hikâye oyunu: 5 gece, 5 hatıra, 3 son.<br>
+[⬇ APK](https://github.com/Enskygr234/Son-Vardiya/releases/download/son-surum/SonVardiya.apk) · [▶ Oyna](https://enskygr234.github.io/ensdewloper.github.io/son-vardiya/) · [🎬 Tanıtım](https://github.com/Enskygr234/Son-Vardiya/blob/main/docs/son-vardiya-tanitim.mp4)
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://enskygr234.github.io/mahalle/"><img src="https://raw.githubusercontent.com/Enskygr234/mahalle/HEAD/docs/tanitim.gif" alt="Mahalle tanıtım videosu"></a>
 
-**🏘️ Mahalle** · yeni<br>
+**🏘️ Mahalle**<br>
 1996 yazı, Akasya Sokağı: seçimli hikaye oyunu, 5 farklı son.<br>
 [⬇ APK](https://github.com/Enskygr234/mahalle/releases/latest/download/Mahalle.apk) · [⬇ Windows](https://github.com/Enskygr234/mahalle/releases/latest/download/Mahalle-Windows.exe) · [▶ Oyna](https://enskygr234.github.io/mahalle/)
 </td>
@@ -73,7 +82,7 @@ Hikâyeli platform oyunu: Karakoncolos'tan yıldızları geri al.<br>
 
 ## 🧰 Bütün projelerim
 
-**🎮 Oyunlar** — [Son Tren](https://github.com/Enskygr234/Son-Tren) · [Mahalle](https://github.com/Enskygr234/mahalle) · [Kayıp Fener](https://github.com/Enskygr234/kayip-fener) · [Buz Kırıcı](https://github.com/Enskygr234/buz-kirici) · [Kar Birleştir](https://github.com/Enskygr234/kar-birlestir) · [Ayazle](https://github.com/Enskygr234/ayazle) · [Kızak](https://github.com/Enskygr234/kizak) · [Son Kış](https://github.com/Enskygr234/son-kis) · [Ayaz Ata'nın Feneri](https://github.com/Enskygr234/ensdewloper.github.io/tree/main/ayaz-feneri) · [Tarayıcı oyunları](https://enskygr234.github.io/ensdewloper.github.io/oyunlar.html)
+**🎮 Oyunlar** — [Son Vardiya](https://github.com/Enskygr234/Son-Vardiya) · [Son Tren](https://github.com/Enskygr234/Son-Tren) · [Mahalle](https://github.com/Enskygr234/mahalle) · [Kayıp Fener](https://github.com/Enskygr234/kayip-fener) · [Buz Kırıcı](https://github.com/Enskygr234/buz-kirici) · [Kar Birleştir](https://github.com/Enskygr234/kar-birlestir) · [Ayazle](https://github.com/Enskygr234/ayazle) · [Kızak](https://github.com/Enskygr234/kizak) · [Son Kış](https://github.com/Enskygr234/son-kis) · [Ayaz Ata'nın Feneri](https://github.com/Enskygr234/ensdewloper.github.io/tree/main/ayaz-feneri) · [Tarayıcı oyunları](https://enskygr234.github.io/ensdewloper.github.io/oyunlar.html)
 
 **📱 Uygulamalar** — [Winter Gym](https://github.com/Enskygr234/Winter-gym) · [Winterball](https://github.com/Enskygr234/Winterball) · [GolHaber](https://github.com/Enskygr234/golhaber) · [Yemek Tarifleri](https://github.com/Enskygr234/ensdewloper.github.io/tree/main/tarifler)
 
