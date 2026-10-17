@@ -134,7 +134,13 @@ Açıklamalar, tanıtım videoları ve indirme butonları için: **[sitem](https
 ## 📦 Son yayınlar
 
 <!-- YAYIN:BASLA -->
-<sub>Bu tablo her gece kendiliğinden dolar.</sub>
+| Yayın | Depo | Tarih |
+|---|---|---|
+| [**Korku Modu - son sürüm (Minecraft 1.21.1, Fabric)**](https://github.com/Enskygr234/korku-modu/releases/tag/son-surum) | [korku-modu](https://github.com/Enskygr234/korku-modu) | 17 Ekim 2026 |
+| [**Oyuncu Merkezi - son sürüm**](https://github.com/Enskygr234/oyuncu-merkez/releases/tag/son-surum) | [oyuncu-merkez](https://github.com/Enskygr234/oyuncu-merkez) | 17 Ekim 2026 |
+| [**İndirim Avcısı - son sürüm**](https://github.com/Enskygr234/indirim-avcisi/releases/tag/son-surum) | [indirim-avcisi](https://github.com/Enskygr234/indirim-avcisi) | 16 Ekim 2026 |
+| [**Son Vardiya (son sürüm)**](https://github.com/Enskygr234/Son-Vardiya/releases/tag/son-surum) | [Son-Vardiya](https://github.com/Enskygr234/Son-Vardiya) | 15 Ekim 2026 |
+| [**Son Tren (son sürüm)**](https://github.com/Enskygr234/Son-Tren/releases/tag/son-surum) | [Son-Tren](https://github.com/Enskygr234/Son-Tren) | 15 Ekim 2026 |
 <!-- YAYIN:BITIS -->
 
 ## 🛠️ Kullandıklarım
