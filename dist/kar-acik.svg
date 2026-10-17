@@ -41,7 +41,7 @@
 <rect x="48" y="90" width="11" height="11" rx="2.5" fill="#e3edf5"/>
 <rect x="48" y="104" width="11" height="11" rx="2.5" fill="#e3edf5"/>
 <rect x="48" y="118" width="11" height="11" rx="2.5" fill="#e3edf5"/>
-<rect x="62" y="34" width="11" height="11" rx="2.5" fill="#b9dcf2"/>
+<rect x="62" y="34" width="11" height="11" rx="2.5" fill="#7cc0ea"/>
 <rect x="62" y="48" width="11" height="11" rx="2.5" fill="#e3edf5"/>
 <rect x="62" y="62" width="11" height="11" rx="2.5" fill="#e3edf5"/>
 <rect x="62" y="76" width="11" height="11" rx="2.5" fill="#e3edf5"/>
@@ -412,7 +412,7 @@
 <rect class="kirag" style="animation-delay:1.72s" x="48" y="90" width="11" height="11" rx="2.5"/>
 <rect class="kirag" style="animation-delay:1.39s" x="48" y="104" width="11" height="11" rx="2.5"/>
 <rect class="kirag" style="animation-delay:2.39s" x="48" y="118" width="11" height="11" rx="2.5"/>
-<rect class="ortu" style="animation-delay:1.82s" x="61.5" y="33" width="12" height="3" rx="1.5"/>
+<rect class="ortu" style="animation-delay:1.82s" x="61.5" y="33" width="12" height="4" rx="2.0"/>
 <rect class="kirag" style="animation-delay:1.30s" x="62" y="48" width="11" height="11" rx="2.5"/>
 <rect class="kirag" style="animation-delay:2.29s" x="62" y="62" width="11" height="11" rx="2.5"/>
 <rect class="kirag" style="animation-delay:1.38s" x="62" y="76" width="11" height="11" rx="2.5"/>
@@ -859,7 +859,7 @@
 <circle class="tane" cx="212.5" cy="0" r="1.8" opacity="0.71" style="--sx:29px;animation-duration:6.2s;animation-delay:-1.9s"/>
 <circle class="tane" cx="577.2" cy="0" r="1.5" opacity="0.74" style="--sx:-16px;animation-duration:13.0s;animation-delay:-11.9s"/>
 <circle class="tane" cx="252.3" cy="0" r="1" opacity="0.83" style="--sx:25px;animation-duration:18.9s;animation-delay:-6.6s"/>
-<text class="b" x="34" y="156">Son bir yılda 152 katkı ❄</text>
+<text class="b" x="34" y="156">Son bir yılda 163 katkı ❄</text>
 <text class="y" x="634" y="156">Az</text>
 <rect x="662" y="146" width="11" height="11" rx="2.5" fill="#e3edf5"/>
 <rect x="676" y="146" width="11" height="11" rx="2.5" fill="#b9dcf2"/>
