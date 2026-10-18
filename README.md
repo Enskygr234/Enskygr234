@@ -13,9 +13,9 @@
 <!-- KIS:BASLA -->
 <div align="center">
 
-🌅 Nardugan'a (kış gündönümü) **64 gün** kaldı &nbsp; `❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄····`
+🌅 Nardugan'a (kış gündönümü) **63 gün** kaldı &nbsp; `❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄···`
 
-<sub>Her gün kendiliğinden güncellenir · son: 18 Ekim 2026</sub>
+<sub>Her gün kendiliğinden güncellenir · son: 19 Ekim 2026</sub>
 
 </div>
 <!-- KIS:BITIS -->
