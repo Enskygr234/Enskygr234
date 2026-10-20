@@ -13,9 +13,9 @@
 <!-- KIS:BASLA -->
 <div align="center">
 
-🌅 Nardugan'a (kış gündönümü) **63 gün** kaldı &nbsp; `❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄···`
+🌅 Nardugan'a (kış gündönümü) **62 gün** kaldı &nbsp; `❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄···`
 
-<sub>Her gün kendiliğinden güncellenir · son: 19 Ekim 2026</sub>
+<sub>Her gün kendiliğinden güncellenir · son: 20 Ekim 2026</sub>
 
 </div>
 <!-- KIS:BITIS -->
@@ -136,11 +136,11 @@ Açıklamalar, tanıtım videoları ve indirme butonları için: **[sitem](https
 <!-- YAYIN:BASLA -->
 | Yayın | Depo | Tarih |
 |---|---|---|
+| [**Karanlık Ev v1.0.3**](https://github.com/Enskygr234/karanlik-ev/releases/tag/v1.0.3) | [karanlik-ev](https://github.com/Enskygr234/karanlik-ev) | 19 Ekim 2026 |
+| [**Karanlık Ev v1.0.2**](https://github.com/Enskygr234/karanlik-ev/releases/tag/v1.0.2) | [karanlik-ev](https://github.com/Enskygr234/karanlik-ev) | 19 Ekim 2026 |
 | [**Mont Al 1.0.6**](https://github.com/Enskygr234/mont-al/releases/tag/apk-6) | [mont-al](https://github.com/Enskygr234/mont-al) | 17 Ekim 2026 |
 | [**Korku Modu - son sürüm (Minecraft 1.21.1, Fabric)**](https://github.com/Enskygr234/korku-modu/releases/tag/son-surum) | [korku-modu](https://github.com/Enskygr234/korku-modu) | 17 Ekim 2026 |
 | [**Oyuncu Merkezi - son sürüm**](https://github.com/Enskygr234/oyuncu-merkez/releases/tag/son-surum) | [oyuncu-merkez](https://github.com/Enskygr234/oyuncu-merkez) | 17 Ekim 2026 |
-| [**İndirim Avcısı - son sürüm**](https://github.com/Enskygr234/indirim-avcisi/releases/tag/son-surum) | [indirim-avcisi](https://github.com/Enskygr234/indirim-avcisi) | 16 Ekim 2026 |
-| [**Son Vardiya (son sürüm)**](https://github.com/Enskygr234/Son-Vardiya/releases/tag/son-surum) | [Son-Vardiya](https://github.com/Enskygr234/Son-Vardiya) | 15 Ekim 2026 |
 <!-- YAYIN:BITIS -->
 
 ## 🛠️ Kullandıklarım
