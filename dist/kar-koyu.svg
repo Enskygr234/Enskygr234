@@ -393,7 +393,7 @@
 <rect x="748" y="118" width="11" height="11" rx="2.5" fill="#8ecae6"/>
 <rect x="762" y="34" width="11" height="11" rx="2.5" fill="#16212e"/>
 <rect x="762" y="48" width="11" height="11" rx="2.5" fill="#3a8fcf"/>
-<rect x="762" y="62" width="11" height="11" rx="2.5" fill="#16212e"/>
+<rect x="762" y="62" width="11" height="11" rx="2.5" fill="#8ecae6"/>
 <rect class="kirag" style="animation-delay:0.59s" x="34" y="34" width="11" height="11" rx="2.5"/>
 <rect class="kirag" style="animation-delay:2.07s" x="34" y="48" width="11" height="11" rx="2.5"/>
 <rect class="kirag" style="animation-delay:0.27s" x="34" y="62" width="11" height="11" rx="2.5"/>
@@ -760,7 +760,7 @@
 <rect class="ortu" style="animation-delay:14.21s" x="747.5" y="117" width="12" height="6" rx="3.0"/>
 <rect class="kirag" style="animation-delay:13.21s" x="762" y="34" width="11" height="11" rx="2.5"/>
 <rect class="ortu" style="animation-delay:14.29s" x="761.5" y="47" width="12" height="5" rx="2.5"/>
-<rect class="kirag" style="animation-delay:14.38s" x="762" y="62" width="11" height="11" rx="2.5"/>
+<rect class="ortu" style="animation-delay:14.38s" x="761.5" y="61" width="12" height="6" rx="3.0"/>
 <circle class="tane" cx="571.7" cy="0" r="1.5" opacity="0.70" style="--sx:26px;animation-duration:14.4s;animation-delay:-12.2s"/>
 <circle class="tane" cx="9.4" cy="0" r="1.5" opacity="0.66" style="--sx:37px;animation-duration:9.3s;animation-delay:-6.0s"/>
 <circle class="tane" cx="674.3" cy="0" r="1" opacity="0.79" style="--sx:-37px;animation-duration:15.3s;animation-delay:-7.5s"/>
@@ -851,7 +851,7 @@
 <circle class="tane" cx="699.7" cy="0" r="1.8" opacity="0.92" style="--sx:6px;animation-duration:9.4s;animation-delay:-5.6s"/>
 <circle class="tane" cx="171.2" cy="0" r="1.8" opacity="0.90" style="--sx:10px;animation-duration:10.1s;animation-delay:-2.2s"/>
 <circle class="tane" cx="604.2" cy="0" r="2.2" opacity="0.70" style="--sx:1px;animation-duration:6.0s;animation-delay:-4.4s"/>
-<text class="b" x="34" y="156">Son bir yılda 174 katkı ❄</text>
+<text class="b" x="34" y="156">Son bir yılda 187 katkı ❄</text>
 <text class="y" x="634" y="156">Az</text>
 <rect x="662" y="146" width="11" height="11" rx="2.5" fill="#16212e"/>
 <rect x="676" y="146" width="11" height="11" rx="2.5" fill="#1c4466"/>
