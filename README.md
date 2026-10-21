@@ -13,9 +13,9 @@
 <!-- KIS:BASLA -->
 <div align="center">
 
-🌅 Nardugan'a (kış gündönümü) **61 gün** kaldı &nbsp; `❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄···`
+🌅 Nardugan'a (kış gündönümü) **60 gün** kaldı &nbsp; `❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄···`
 
-<sub>Her gün kendiliğinden güncellenir · son: 21 Ekim 2026</sub>
+<sub>Her gün kendiliğinden güncellenir · son: 22 Ekim 2026</sub>
 
 </div>
 <!-- KIS:BITIS -->
@@ -136,11 +136,11 @@ Açıklamalar, tanıtım videoları ve indirme butonları için: **[sitem](https
 <!-- YAYIN:BASLA -->
 | Yayın | Depo | Tarih |
 |---|---|---|
+| [**Son Kış v1.1 — Masal İnsanları**](https://github.com/Enskygr234/son-kis/releases/tag/v1.1) | [son-kis](https://github.com/Enskygr234/son-kis) | 21 Ekim 2026 |
 | [**Kar Çarkı (son sürüm)**](https://github.com/Enskygr234/Kar-ark-/releases/tag/son-surum) | [Kar-ark-](https://github.com/Enskygr234/Kar-ark-) | 20 Ekim 2026 |
 | [**Winter Browser 2.0.0**](https://github.com/Enskygr234/winter-browser-releases/releases/tag/v2.0.0) | [winter-browser-releases](https://github.com/Enskygr234/winter-browser-releases) | 20 Ekim 2026 |
 | [**Karanlık Ev v1.0.3**](https://github.com/Enskygr234/karanlik-ev/releases/tag/v1.0.3) | [karanlik-ev](https://github.com/Enskygr234/karanlik-ev) | 19 Ekim 2026 |
 | [**Karanlık Ev v1.0.2**](https://github.com/Enskygr234/karanlik-ev/releases/tag/v1.0.2) | [karanlik-ev](https://github.com/Enskygr234/karanlik-ev) | 19 Ekim 2026 |
-| [**Mont Al 1.0.6**](https://github.com/Enskygr234/mont-al/releases/tag/apk-6) | [mont-al](https://github.com/Enskygr234/mont-al) | 17 Ekim 2026 |
 <!-- YAYIN:BITIS -->
 
 ## 🛠️ Kullandıklarım
