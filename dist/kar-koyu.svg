@@ -34,7 +34,7 @@
 <rect x="34" y="90" width="11" height="11" rx="2.5" fill="#16212e"/>
 <rect x="34" y="104" width="11" height="11" rx="2.5" fill="#16212e"/>
 <rect x="34" y="118" width="11" height="11" rx="2.5" fill="#16212e"/>
-<rect x="48" y="34" width="11" height="11" rx="2.5" fill="#26679a"/>
+<rect x="48" y="34" width="11" height="11" rx="2.5" fill="#1c4466"/>
 <rect x="48" y="48" width="11" height="11" rx="2.5" fill="#16212e"/>
 <rect x="48" y="62" width="11" height="11" rx="2.5" fill="#16212e"/>
 <rect x="48" y="76" width="11" height="11" rx="2.5" fill="#16212e"/>
@@ -394,9 +394,9 @@
 <rect x="762" y="34" width="11" height="11" rx="2.5" fill="#16212e"/>
 <rect x="762" y="48" width="11" height="11" rx="2.5" fill="#3a8fcf"/>
 <rect x="762" y="62" width="11" height="11" rx="2.5" fill="#8ecae6"/>
-<rect x="762" y="76" width="11" height="11" rx="2.5" fill="#8ecae6"/>
+<rect x="762" y="76" width="11" height="11" rx="2.5" fill="#3a8fcf"/>
 <rect x="762" y="90" width="11" height="11" rx="2.5" fill="#1c4466"/>
-<rect x="762" y="104" width="11" height="11" rx="2.5" fill="#3a8fcf"/>
+<rect x="762" y="104" width="11" height="11" rx="2.5" fill="#8ecae6"/>
 <rect class="kirag" style="animation-delay:0.05s" x="34" y="34" width="11" height="11" rx="2.5"/>
 <rect class="kirag" style="animation-delay:0.71s" x="34" y="48" width="11" height="11" rx="2.5"/>
 <rect class="kirag" style="animation-delay:2.04s" x="34" y="62" width="11" height="11" rx="2.5"/>
@@ -404,7 +404,7 @@
 <rect class="kirag" style="animation-delay:0.98s" x="34" y="90" width="11" height="11" rx="2.5"/>
 <rect class="kirag" style="animation-delay:1.81s" x="34" y="104" width="11" height="11" rx="2.5"/>
 <rect class="kirag" style="animation-delay:0.31s" x="34" y="118" width="11" height="11" rx="2.5"/>
-<rect class="ortu" style="animation-delay:1.74s" x="47.5" y="33" width="12" height="4" rx="2.0"/>
+<rect class="ortu" style="animation-delay:1.74s" x="47.5" y="33" width="12" height="3" rx="1.5"/>
 <rect class="kirag" style="animation-delay:1.89s" x="48" y="48" width="11" height="11" rx="2.5"/>
 <rect class="kirag" style="animation-delay:2.64s" x="48" y="62" width="11" height="11" rx="2.5"/>
 <rect class="kirag" style="animation-delay:2.39s" x="48" y="76" width="11" height="11" rx="2.5"/>
@@ -764,9 +764,9 @@
 <rect class="kirag" style="animation-delay:14.44s" x="762" y="34" width="11" height="11" rx="2.5"/>
 <rect class="ortu" style="animation-delay:12.96s" x="761.5" y="47" width="12" height="5" rx="2.5"/>
 <rect class="ortu" style="animation-delay:13.52s" x="761.5" y="61" width="12" height="6" rx="3.0"/>
-<rect class="ortu" style="animation-delay:13.42s" x="761.5" y="75" width="12" height="6" rx="3.0"/>
+<rect class="ortu" style="animation-delay:13.42s" x="761.5" y="75" width="12" height="5" rx="2.5"/>
 <rect class="ortu" style="animation-delay:13.86s" x="761.5" y="89" width="12" height="3" rx="1.5"/>
-<rect class="ortu" style="animation-delay:14.19s" x="761.5" y="103" width="12" height="5" rx="2.5"/>
+<rect class="ortu" style="animation-delay:14.19s" x="761.5" y="103" width="12" height="6" rx="3.0"/>
 <circle class="tane" cx="651.0" cy="0" r="1.2" opacity="0.88" style="--sx:24px;animation-duration:9.5s;animation-delay:-0.5s"/>
 <circle class="tane" cx="616.3" cy="0" r="1.8" opacity="0.62" style="--sx:-27px;animation-duration:7.6s;animation-delay:-3.3s"/>
 <circle class="tane" cx="443.4" cy="0" r="2.2" opacity="0.87" style="--sx:21px;animation-duration:9.9s;animation-delay:-7.5s"/>
@@ -857,7 +857,7 @@
 <circle class="tane" cx="200.3" cy="0" r="1.5" opacity="0.70" style="--sx:-28px;animation-duration:12.3s;animation-delay:-7.4s"/>
 <circle class="tane" cx="614.6" cy="0" r="1.5" opacity="0.79" style="--sx:10px;animation-duration:7.2s;animation-delay:-1.5s"/>
 <circle class="tane" cx="232.7" cy="0" r="1.8" opacity="0.93" style="--sx:36px;animation-duration:9.9s;animation-delay:-0.3s"/>
-<text class="b" x="34" y="156">Son bir yılda 212 katkı ❄</text>
+<text class="b" x="34" y="156">Son bir yılda 217 katkı ❄</text>
 <text class="y" x="634" y="156">Az</text>
 <rect x="662" y="146" width="11" height="11" rx="2.5" fill="#16212e"/>
 <rect x="676" y="146" width="11" height="11" rx="2.5" fill="#1c4466"/>
