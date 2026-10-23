@@ -48,21 +48,20 @@ def kis_bolumu(bugun):
 
 
 def yayin_bolumu():
-    repolar = api(f"users/{KULLANICI}/repos?per_page=100&type=owner") or []
+    # Kod repoları gizli; indirme dosyaları herkese açık winter-browser-releases reposunda duruyor.
     yayinlar = []
-    for repo in repolar:
-        if repo.get("fork") or repo["name"].lower() == KULLANICI.lower():
-            continue
-        for y in (api(f"repos/{KULLANICI}/{repo['name']}/releases?per_page=5") or []):
-            if y.get("published_at") and not y.get("draft"):
-                yayinlar.append((y["published_at"], repo["name"], y.get("name") or y["tag_name"], y["html_url"]))
+    for y in (api(f"repos/{KULLANICI}/winter-browser-releases/releases?per_page=30") or []):
+        if y.get("published_at") and not y.get("draft"):
+            yayinlar.append((y["published_at"], y.get("name") or y["tag_name"], y["html_url"]))
     if not yayinlar:
         return None
     yayinlar.sort(reverse=True)
-    satirlar = ["| Yayın | Depo | Tarih |", "|---|---|---|"]
-    for zaman, repo, ad, link in yayinlar[:5]:
+    satirlar = ["| Yayın | Tarih |", "|---|---|"]
+    for zaman, ad, link in yayinlar[:5]:
         gun = dt.datetime.fromisoformat(zaman.replace("Z", "+00:00")).astimezone(TR).date()
-        satirlar.append(f"| [**{ad}**]({link}) | [{repo}](https://github.com/{KULLANICI}/{repo}) | {tarih_yaz(gun)} |")
+        satirlar.append(f"| [**{ad}**]({link}) | {tarih_yaz(gun)} |")
+    satirlar.append("")
+    satirlar.append("<sub>Hepsi ve daha fazlası: [enskygr234.github.io](https://enskygr234.github.io/)</sub>")
     return "\n".join(satirlar)
 
 
