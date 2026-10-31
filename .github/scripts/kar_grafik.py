@@ -27,9 +27,10 @@ TEMALAR = {
         "kar": "#ffffff", "kar_kenar": "#b8cfe0", "tane": "#8fb6d6",
     },
     "koyu": {
-        "zemin": "#0d1520", "yazi": "#cfe3f5", "soluk": "#6f8aa3",
-        "seviye": ["#16212e", "#1c4466", "#26679a", "#3a8fcf", "#8ecae6"],
-        "kar": "#f4fbff", "kar_kenar": "#f4fbff", "tane": "#ffffff",
+        # Neon tema: koyu lacivert zemin, mavi → mor seviyeler
+        "zemin": "#070c1c", "yazi": "#e6edf7", "soluk": "#7d8aa6", "kenar": "#18244a",
+        "seviye": ["#111a33", "#123c6b", "#1f6fd1", "#00d4ff", "#b57bff"],
+        "kar": "#e8f7ff", "kar_kenar": "#e8f7ff", "tane": "#bfefff",
     },
 }
 SEVIYE_ADLARI = {"NONE": 0, "FIRST_QUARTILE": 1, "SECOND_QUARTILE": 2, "THIRD_QUARTILE": 3, "FOURTH_QUARTILE": 4}
@@ -126,7 +127,8 @@ def svg_uret(gunler, toplam, tema_adi, tohum):
   .ortu,.tane{{will-change:transform,opacity}}
   @media (prefers-reduced-motion:reduce){{.tane{{display:none}}.ortu{{animation:none;opacity:1}}.kirag{{animation:none;opacity:.28}}}}
 </style>""")
-    p.append(f'<rect width="{gen}" height="{yuk}" rx="10" fill="{t["zemin"]}"/>')
+    p.append(f'<rect x=".5" y=".5" width="{gen - 1}" height="{yuk - 1}" rx="12" fill="{t["zemin"]}" '
+             f'stroke="{t.get("kenar", t["zemin"])}"/>')
 
     # Ay adları
     son_ay = None
@@ -171,7 +173,7 @@ def svg_uret(gunler, toplam, tema_adi, tohum):
 
     # Alt yazı
     alt = UST + 7 * ADIM + 24
-    yazi = f"Son bir yılda {toplam} katkı ❄" if toplam is not None else "Son bir yılın katkıları ❄"
+    yazi = f"Son bir yılda {toplam} katkı" if toplam is not None else "Son bir yılın katkıları"
     p.append(f'<text class="b" x="{SOL}" y="{alt}">{yazi}</text>')
     # Seviye göstergesi
     lx = gen - 16 - 5 * ADIM - 30

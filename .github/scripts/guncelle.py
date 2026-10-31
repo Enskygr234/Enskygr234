@@ -39,12 +39,13 @@ def kis_bolumu(bugun):
         gundonumu = dt.date(bugun.year + 1, 12, 21)
     kalan = (gundonumu - bugun).days
     if kalan == 0:
-        satir = "🌅 **Bugün Nardugan!** Yılın en uzun gecesi bitti, gün yeniden doğuyor."
+        satir = "<b>Bugün Nardugan.</b> Yılın en uzun gecesi bitti, gün yeniden doğuyor."
     else:
         dolu = max(0, min(20, round(20 * (1 - kalan / 365))))
-        cubuk = "❄" * dolu + "·" * (20 - dolu)
-        satir = f"🌅 Nardugan'a (kış gündönümü) **{kalan} gün** kaldı &nbsp; `{cubuk}`"
-    return f"<div align=\"center\">\n\n{satir}\n\n<sub>Her gün kendiliğinden güncellenir · son: {tarih_yaz(bugun)}</sub>\n\n</div>"
+        cubuk = "▰" * dolu + "▱" * (20 - dolu)
+        satir = f"Nardugan'a (kış gündönümü) <b>{kalan} gün</b> kaldı &nbsp;<code>{cubuk}</code>"
+    return (f"<p align=\"center\"><sub>{satir}<br>"
+            f"Her gün kendiliğinden güncellenir · son: {tarih_yaz(bugun)}</sub></p>")
 
 
 def yayin_bolumu():

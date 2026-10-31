@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 8" width="900" height="8" preserveAspectRatio="none" role="presentation">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00d4ff" stop-opacity="0"/><stop offset=".3" stop-color="#00d4ff"/><stop offset=".7" stop-color="#a855f7"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></linearGradient>
+<linearGradient id="p" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<style>.k{animation:k 4.5s ease-in-out infinite}@keyframes k{from{transform:translateX(-160px)}to{transform:translateX(1060px)}}@media (prefers-reduced-motion:reduce){.k{animation:none;opacity:0}}</style>
+<rect y="3" width="900" height="2" rx="1" fill="url(#g)" opacity=".85"/>
+<rect class="k" y="3" width="140" height="2" fill="url(#p)"/>
+</svg>

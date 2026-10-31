@@ -1,8 +1,7 @@
-"""Profil için kış temalı istatistik kartı çizer (dış servis gerektirmez).
+"""Profil için neon temalı istatistik ve dil kartları çizer (dış servis gerektirmez).
 
-Çıktı: dist/istatistik-koyu.svg ve dist/istatistik-acik.svg
-- Sol: açık repo, toplam yıldız, son bir yıldaki katkı, commit ve yayın sayısı
-- Sağ: en çok kullanılan diller (açık repolardaki kod baytına göre)
+Çıktı: dist/istatistik.svg (açık repo, yıldız, katkı, commit, yayın)
+       dist/diller.svg (en çok kullanılan diller, açık repolardaki kod baytına göre)
 
 Kullanım: python istatistik.py
   REPOLAR="a,b,c" ortam değişkeni verilirse kullanıcı listesi yerine bu repolar okunur.
@@ -10,7 +9,6 @@ Veri alınamazsa eski kartlar olduğu gibi bırakılır.
 """
 import json
 import os
-import random
 import re
 import urllib.request
 
@@ -26,12 +24,9 @@ DIL_RENK = {
 }
 GIZLE = {"Batchfile", "Procfile", "Dockerfile", "Makefile"}
 
-TEMALAR = {
-    "koyu": {"zemin1": "#0a1830", "zemin2": "#050b15", "cizgi": "#1d3550", "yazi": "#e8f4ff",
-             "soluk": "#7f9bb5", "vurgu": "#5fd4ff", "turuncu": "#f2a33a", "tane": "#ffffff", "ray": "#16263a"},
-    "acik": {"zemin1": "#f6fbff", "zemin2": "#e6f1fa", "cizgi": "#cfe0ee", "yazi": "#1f3b57",
-             "soluk": "#6a87a1", "vurgu": "#1d7fc4", "turuncu": "#d9821a", "tane": "#9cc4e4", "ray": "#dce9f4"},
-}
+# Neon tema: siyah / koyu lacivert zemin, neon mavi ve mor vurgular
+T = {"zemin1": "#070c1c", "zemin2": "#03050c", "kutu": "#0b1328", "kutu_kenar": "#18244a",
+     "yazi": "#e6edf7", "soluk": "#7d8aa6", "mavi": "#00d4ff", "mor": "#a855f7", "ray": "#111a33"}
 
 
 def api(yol):
@@ -134,78 +129,107 @@ def sayi(n):
     return "—" if n is None else f"{n:,}".replace(",", ".")
 
 
-def svg(veri, tema):
-    t = TEMALAR[tema]
-    G, Y = 900, 210
-    rnd = random.Random(11)
-    p = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {G} {Y}" width="{G}" height="{Y}" role="img" '
-         f'aria-label="{KULLANICI} GitHub istatistikleri">']
-    p.append(f"""<defs>
-<linearGradient id="z" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{t['zemin1']}"/><stop offset="1" stop-color="{t['zemin2']}"/></linearGradient>
-<clipPath id="k"><rect width="{G}" height="{Y}" rx="14"/></clipPath>
+def _ust(G, Y, etiket, baslik, alt):
+    return [
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {G} {Y}" width="{G}" height="{Y}" role="img" aria-label="{etiket}">',
+        f"""<defs>
+<linearGradient id="z" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{T['zemin1']}"/><stop offset="1" stop-color="{T['zemin2']}"/></linearGradient>
+<linearGradient id="n" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{T['mavi']}"/><stop offset="1" stop-color="{T['mor']}"/></linearGradient>
+<linearGradient id="kn" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{T['mavi']}" stop-opacity=".6"/><stop offset=".5" stop-color="{T['kutu_kenar']}"/><stop offset="1" stop-color="{T['mor']}" stop-opacity=".6"/></linearGradient>
+<radialGradient id="isik" cx="0" cy="0" r="1"><stop offset="0" stop-color="{T['mavi']}" stop-opacity=".22"/><stop offset="1" stop-color="{T['mavi']}" stop-opacity="0"/></radialGradient>
+<radialGradient id="isik2" cx="1" cy="1" r="1"><stop offset="0" stop-color="{T['mor']}" stop-opacity=".20"/><stop offset="1" stop-color="{T['mor']}" stop-opacity="0"/></radialGradient>
+<clipPath id="k"><rect width="{G}" height="{Y}" rx="16"/></clipPath>
 </defs>
 <style>
-text{{font-family:-apple-system,'Segoe UI',system-ui,Helvetica,Arial,sans-serif}}
-.bs{{font-size:15px;font-weight:700;fill:{t['yazi']}}}
-.et{{font-size:12.5px;fill:{t['soluk']}}}
-.dg{{font-size:24px;font-weight:800;fill:{t['yazi']}}}
-.dl{{font-size:12.5px;fill:{t['yazi']}}}
-.yz{{font-size:12.5px;fill:{t['soluk']};font-variant-numeric:tabular-nums}}
-.tn{{fill:{t['tane']};animation:d linear infinite}}
-@keyframes d{{from{{transform:translateY(-12px)}}to{{transform:translateY({Y + 12}px)}}}}
-.gir{{opacity:0;animation:g .7s ease-out forwards}}
-@keyframes g{{to{{opacity:1}}}}
-@media (prefers-reduced-motion:reduce){{.tn{{display:none}}.gir{{animation:none;opacity:1}}}}
-</style>""")
-    p.append(f'<g clip-path="url(#k)"><rect width="{G}" height="{Y}" fill="url(#z)"/>')
-    # Kar taneleri
-    for _ in range(26):
-        x, r_ = rnd.uniform(0, G), rnd.choice([1, 1.2, 1.6, 2])
-        p.append(f'<circle class="tn" cx="{x:.0f}" cy="0" r="{r_}" opacity="{rnd.uniform(.25, .7):.2f}" '
-                 f'style="animation-duration:{rnd.uniform(9, 18):.1f}s;animation-delay:-{rnd.uniform(0, 18):.1f}s"/>')
-    p.append(f'<rect x=".5" y=".5" width="{G - 1}" height="{Y - 1}" rx="14" fill="none" stroke="{t["cizgi"]}"/>')
-    p.append(f'<line x1="446" y1="28" x2="446" y2="{Y - 28}" stroke="{t["cizgi"]}"/>')
-
-    # Sol: rakamlar
-    p.append(f'<text class="bs" x="32" y="44">❄ Rakamlarla</text>')
-    kutular = [
-        ("Açık repo", veri["repo"], t["vurgu"]),
-        (("Toplam yıldız", veri["yildiz"]) if veri["yildiz"] else ("Kullandığım dil", veri["dil_sayisi"])) + (t["turuncu"],),
-        ("Yayın", veri["yayin"], t["vurgu"]),
-        ("Son 1 yılda katkı", veri["katki"], t["turuncu"]),
-        ("Son 1 yılda commit", veri["commit"], t["vurgu"]),
-        ("Lisans", "MIT", t["turuncu"]),
+text{{font-family:'Segoe UI',Inter,-apple-system,system-ui,Roboto,Helvetica,Arial,sans-serif}}
+.m{{font-family:'JetBrains Mono','Fira Code',Consolas,'SF Mono',Menlo,monospace}}
+.bs{{font-size:19px;font-weight:700;fill:{T['yazi']}}}
+.alt{{font-size:12.5px;fill:{T['soluk']}}}
+.dg{{font-size:31px;font-weight:800}}
+.et{{font-size:14px;fill:{T['soluk']}}}
+.dl{{font-size:15px;fill:{T['yazi']};font-weight:600}}
+.yz{{font-size:14px;fill:{T['soluk']};font-variant-numeric:tabular-nums}}
+.gir{{opacity:0;animation:g .8s ease-out forwards}}
+@keyframes g{{from{{opacity:0;transform:translateY(6px)}}to{{opacity:1;transform:none}}}}
+.bar{{transform-box:fill-box;transform-origin:left center;transform:scaleX(0);animation:b 1.1s cubic-bezier(.2,.8,.2,1) forwards}}
+@keyframes b{{to{{transform:scaleX(1)}}}}
+.nb{{animation:nb 2.4s ease-in-out infinite}}
+@keyframes nb{{50%{{opacity:.35}}}}
+@media (prefers-reduced-motion:reduce){{.gir,.bar,.nb{{animation:none;opacity:1;transform:none}}}}
+</style>""",
+        f'<g clip-path="url(#k)"><rect width="{G}" height="{Y}" fill="url(#z)"/>'
+        f'<rect width="{G}" height="{Y}" fill="url(#isik)"/><rect width="{G}" height="{Y}" fill="url(#isik2)"/>',
+        f'<rect x=".75" y=".75" width="{G - 1.5}" height="{Y - 1.5}" rx="16" fill="none" stroke="url(#kn)" stroke-width="1.5"/>',
+        f'<circle class="nb" cx="38" cy="44" r="5" fill="{T["mavi"]}"/>',
+        f'<text class="bs" x="54" y="51">{baslik}</text>',
+        f'<text class="alt m" x="{G - 32}" y="50" text-anchor="end">{alt}</text>',
     ]
-    for i, (ad, deger, renk) in enumerate(kutular):
-        x = 32 + (i % 3) * 134
-        y = 92 + (i // 3) * 72
-        deger = deger if isinstance(deger, str) else sayi(deger)
-        p.append(f'<g class="gir" style="animation-delay:{i * .08:.2f}s">'
-                 f'<rect x="{x}" y="{y - 30}" width="3" height="40" rx="1.5" fill="{renk}"/>'
-                 f'<text class="dg" x="{x + 12}" y="{y - 4}">{deger}</text>'
-                 f'<text class="et" x="{x + 12}" y="{y + 13}">{ad}</text></g>')
 
-    # Sağ: diller
-    p.append(f'<text class="bs" x="474" y="44">🛠️ En çok yazdığım diller</text>')
-    x0, w = 474, 394
-    if veri["diller"]:
-        x = x0
-        p.append(f'<rect x="{x0}" y="62" width="{w}" height="10" rx="5" fill="{t["ray"]}"/>')
-        p.append(f'<clipPath id="bar"><rect x="{x0}" y="62" width="{w}" height="10" rx="5"/></clipPath><g clip-path="url(#bar)">')
-        for dil, oran in veri["diller"]:
-            genis = oran * w
-            p.append(f'<rect x="{x:.1f}" y="62" width="{genis + .5:.1f}" height="10" fill="{DIL_RENK.get(dil, "#8aa4bb")}"/>')
-            x += genis
-        p.append('</g>')
-        for i, (dil, oran) in enumerate(veri["diller"]):
-            cx = x0 + (i % 2) * 204
-            cy = 104 + (i // 2) * 28
-            p.append(f'<g class="gir" style="animation-delay:{.3 + i * .07:.2f}s">'
-                     f'<circle cx="{cx + 6}" cy="{cy - 4}" r="5.5" fill="{DIL_RENK.get(dil, "#8aa4bb")}"/>'
-                     f'<text class="dl" x="{cx + 20}" y="{cy}">{dil}</text>'
-                     f'<text class="yz" x="{cx + 190}" y="{cy}" text-anchor="end">%{oran * 100:.1f}</text></g>')
-    p.append('</g></svg>')
+
+def svg_istatistik(veri):
+    G, Y = 800, 262
+    p = _ust(G, Y, f"{KULLANICI} GitHub istatistikleri", "Genel Bakış", "her gece güncellenir")
+    kutular = [
+        ("Açık repo", veri["repo"]),
+        ("Toplam yıldız", veri["yildiz"]) if veri["yildiz"] else ("Kullandığım dil", veri["dil_sayisi"]),
+        ("Yayın", veri["yayin"]),
+        ("Son 1 yılda katkı", veri["katki"]),
+        ("Son 1 yılda commit", veri["commit"]),
+        ("Lisans", "MIT"),
+    ]
+    kw, kh, ara = 236, 78, 14
+    for i, (ad, deger) in enumerate(kutular):
+        x = 32 + (i % 3) * (kw + ara)
+        y = 80 + (i // 3) * (kh + ara)
+        deger = deger if isinstance(deger, str) else sayi(deger)
+        renk = T["mavi"] if i % 2 == 0 else T["mor"]
+        p.append(f'<g class="gir" style="animation-delay:{i * .08:.2f}s">'
+                 f'<rect x="{x}" y="{y}" width="{kw}" height="{kh}" rx="12" fill="{T["kutu"]}" stroke="{T["kutu_kenar"]}"/>'
+                 f'<rect x="{x}" y="{y + 18}" width="3" height="{kh - 36}" rx="1.5" fill="{renk}"/>'
+                 f'<text class="dg" x="{x + 20}" y="{y + 40}" fill="{renk}">{deger}</text>'
+                 f'<text class="et" x="{x + 20}" y="{y + 62}">{ad}</text></g>')
+    p.append("</g></svg>")
     return "\n".join(p)
+
+
+def svg_diller(veri):
+    liste = veri["diller"]
+    G = 800
+    Y = 118 + 34 * len(liste) + 10
+    p = _ust(G, Y, "En çok kullandığım diller: " + ", ".join(f"{d} %{o * 100:.1f}" for d, o in liste),
+             "En Çok Kullandığım Diller", "açık repolar · kod baytı")
+    x0, w = 32, G - 64
+    # Üstte tek parça oran şeridi
+    p.append(f'<rect x="{x0}" y="78" width="{w}" height="10" rx="5" fill="{T["ray"]}"/>')
+    p.append(f'<clipPath id="serit"><rect x="{x0}" y="78" width="{w}" height="10" rx="5"/></clipPath><g clip-path="url(#serit)">')
+    x = x0
+    for dil, oran in liste:
+        genis = oran * w
+        p.append(f'<rect class="bar" x="{x:.1f}" y="78" width="{genis + .6:.1f}" height="10" fill="{DIL_RENK.get(dil, "#5d6b8f")}"/>')
+        x += genis
+    p.append("</g>")
+    # Satır satır
+    iz_x, iz_w = 210, 470
+    for i, (dil, oran) in enumerate(liste):
+        y = 124 + i * 34
+        genis = max(4.0, oran * iz_w)
+        p.append(f'<g class="gir" style="animation-delay:{.15 + i * .07:.2f}s">'
+                 f'<circle cx="{x0 + 7}" cy="{y - 5}" r="6" fill="{DIL_RENK.get(dil, "#5d6b8f")}"/>'
+                 f'<text class="dl" x="{x0 + 24}" y="{y}">{dil}</text>'
+                 f'<rect x="{iz_x}" y="{y - 10}" width="{iz_w}" height="10" rx="5" fill="{T["ray"]}"/>'
+                 f'<rect class="bar" style="animation-delay:{.3 + i * .08:.2f}s" x="{iz_x}" y="{y - 10}" width="{genis:.1f}" height="10" rx="5" fill="url(#n)"/>'
+                 f'<text class="yz m" x="{G - 32}" y="{y}" text-anchor="end">%{oran * 100:.1f}</text></g>')
+    p.append("</g></svg>")
+    return "\n".join(p)
+
+
+def yaz(veri):
+    os.makedirs(CIKTI, exist_ok=True)
+    with open(os.path.join(CIKTI, "istatistik.svg"), "w", encoding="utf-8") as f:
+        f.write(svg_istatistik(veri))
+    if veri["diller"]:
+        with open(os.path.join(CIKTI, "diller.svg"), "w", encoding="utf-8") as f:
+            f.write(svg_diller(veri))
 
 
 if __name__ == "__main__":
@@ -223,8 +247,5 @@ if __name__ == "__main__":
     }
     veri["diller"], veri["dil_sayisi"] = diller(repolar)
     print(veri)
-    os.makedirs(CIKTI, exist_ok=True)
-    for tema in TEMALAR:
-        with open(os.path.join(CIKTI, f"istatistik-{tema}.svg"), "w", encoding="utf-8") as f:
-            f.write(svg(veri, tema))
+    yaz(veri)
     print("İstatistik kartları yazıldı")

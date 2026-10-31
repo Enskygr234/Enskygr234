@@ -1,229 +1,276 @@
 <div align="center">
 
-![Winterdeveloper](afis.svg)
+<img src="afis.svg" alt="Winterdeveloper — oyunlar, Android uygulamaları, Windows araçları ve web" width="100%">
 
-**Oyunlar, Android uygulamaları, bir Minecraft modu ve küçük Windows araçları yapıyorum.**<br>
-<sub>Çoğu Türk masallarından, kıştan ve Nardugan'dan ilham alıyor.</sub>
+<img src="assets/yazi.svg" alt="Hikâye odaklı 2D ve 3D oyunlar · Android uygulamaları · Electron ile Windows araçları · Minecraft modu · GitHub Actions" width="100%">
 
-[![Sitem](https://img.shields.io/badge/🌐_Sitem-bütün_projeler-5fd4ff?style=for-the-badge&labelColor=0a1830)](https://enskygr234.github.io/)
-[![İndirmeler](https://img.shields.io/badge/⬇_İndir-APK_ve_EXE-3ddc84?style=for-the-badge&labelColor=0a1830)](https://github.com/Enskygr234/winter-browser-releases/releases)
-[![E-posta](https://img.shields.io/badge/✉️_Yaz_bana-ensygk115@gmail.com-f2a33a?style=for-the-badge&labelColor=0a1830)](mailto:ensygk115@gmail.com)
-[![Lisans](https://img.shields.io/badge/📜_Lisans-MIT-a66bff?style=for-the-badge&labelColor=0a1830)](#-lisans)
+<a href="https://enskygr234.github.io/"><img src="https://img.shields.io/badge/Site-enskygr234.github.io-00d4ff?style=for-the-badge&labelColor=0b1328&logo=googlechrome&logoColor=00d4ff" alt="Site"></a>
+<a href="https://github.com/Enskygr234/winter-browser-releases/releases"><img src="https://img.shields.io/badge/İndir-APK_·_EXE-a855f7?style=for-the-badge&labelColor=0b1328&logo=github&logoColor=a855f7" alt="İndirmeler"></a>
+<a href="mailto:ensygk115@gmail.com"><img src="https://img.shields.io/badge/E--posta-ensygk115@gmail.com-00d4ff?style=for-the-badge&labelColor=0b1328&logo=gmail&logoColor=00d4ff" alt="E-posta"></a>
 
 </div>
 
-<!-- KIS:BASLA -->
-<div align="center">
+<img src="assets/ayirici.svg" width="100%" height="8" alt="">
 
-🌅 Nardugan'a (kış gündönümü) **51 gün** kaldı &nbsp; `❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄···`
+## Hakkımda
 
-<sub>Her gün kendiliğinden güncellenir · son: 31 Ekim 2026</sub>
+Ben **Winterdeveloper**. Hikâye odaklı oyunlar, Android uygulamaları, bir Minecraft modu ve küçük Windows araçları geliştiriyorum. Projelerimin çoğu Türk masallarından, kıştan ve Nardugan'dan ilham alıyor.
 
-</div>
-<!-- KIS:BITIS -->
+- **Oyunlar** — 3D birinci şahıs hikâye oyunları, seçimli anlatılar, platform ve bulmaca oyunları
+- **Mobil** — Capacitor ve Jetpack Compose ile çevrimdışı çalışan Android uygulamaları
+- **Masaüstü** — Electron ile Windows için bakım, launcher ve sistem araçları
+- **Web** — tarayıcıda çalışan araçlar, açık bir Türkçe API ve Telegram botu
+- **Otomasyon** — bu profil ve istatistik kartları her gece GitHub Actions ile kendini güncelliyor
 
-## 📊 Rakamlarla
+<img src="assets/ayirici.svg" width="100%" height="8" alt="">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dist/istatistik-koyu.svg">
-  <img src="dist/istatistik-acik.svg" alt="Açık repo sayısı, katkı ve commit sayısı, en çok kullanılan diller" width="100%">
-</picture>
+## Teknolojiler
 
-<sub>Kendi GitHub Actions işimle her gece yeniden çiziliyor; dış servise bağlı değil, hiç kırılmaz.</sub>
+<p>
+<sub><b>DİLLER</b></sub><br>
+<img src="https://img.shields.io/badge/JavaScript-0b1328?style=for-the-badge&logo=javascript&logoColor=00d4ff" alt="JavaScript">
+<img src="https://img.shields.io/badge/HTML5-0b1328?style=for-the-badge&logo=html5&logoColor=00d4ff" alt="HTML5">
+<img src="https://img.shields.io/badge/CSS3-0b1328?style=for-the-badge&logo=css&logoColor=00d4ff" alt="CSS3">
+<img src="https://img.shields.io/badge/Python-0b1328?style=for-the-badge&logo=python&logoColor=00d4ff" alt="Python">
+<img src="https://img.shields.io/badge/Kotlin-0b1328?style=for-the-badge&logo=kotlin&logoColor=00d4ff" alt="Kotlin">
+<img src="https://img.shields.io/badge/Java-0b1328?style=for-the-badge&logo=openjdk&logoColor=00d4ff" alt="Java">
+<img src="https://img.shields.io/badge/C%23-0b1328?style=for-the-badge&logo=dotnet&logoColor=00d4ff" alt="C#">
+</p>
 
-## 🔥 Öne çıkanlar
+<p>
+<sub><b>ARAYÜZ VE OYUN</b></sub><br>
+<img src="https://img.shields.io/badge/React-0b1328?style=for-the-badge&logo=react&logoColor=a855f7" alt="React">
+<img src="https://img.shields.io/badge/Vite-0b1328?style=for-the-badge&logo=vite&logoColor=a855f7" alt="Vite">
+<img src="https://img.shields.io/badge/Three.js-0b1328?style=for-the-badge&logo=threedotjs&logoColor=a855f7" alt="Three.js">
+<img src="https://img.shields.io/badge/Phaser_3-0b1328?style=for-the-badge&logo=javascript&logoColor=a855f7" alt="Phaser 3">
+<img src="https://img.shields.io/badge/Fabric_·_Minecraft-0b1328?style=for-the-badge&logo=openjdk&logoColor=a855f7" alt="Fabric (Minecraft modu)">
+</p>
+
+<p>
+<sub><b>MOBİL VE MASAÜSTÜ</b></sub><br>
+<img src="https://img.shields.io/badge/Android-0b1328?style=for-the-badge&logo=android&logoColor=00d4ff" alt="Android">
+<img src="https://img.shields.io/badge/Jetpack_Compose-0b1328?style=for-the-badge&logo=jetpackcompose&logoColor=00d4ff" alt="Jetpack Compose">
+<img src="https://img.shields.io/badge/Capacitor-0b1328?style=for-the-badge&logo=capacitor&logoColor=00d4ff" alt="Capacitor">
+<img src="https://img.shields.io/badge/Electron-0b1328?style=for-the-badge&logo=electron&logoColor=00d4ff" alt="Electron">
+<img src="https://img.shields.io/badge/.NET-0b1328?style=for-the-badge&logo=dotnet&logoColor=00d4ff" alt=".NET">
+</p>
+
+<p>
+<sub><b>ALTYAPI VE ARAÇLAR</b></sub><br>
+<img src="https://img.shields.io/badge/Node.js-0b1328?style=for-the-badge&logo=nodedotjs&logoColor=a855f7" alt="Node.js">
+<img src="https://img.shields.io/badge/SQLite-0b1328?style=for-the-badge&logo=sqlite&logoColor=a855f7" alt="SQLite">
+<img src="https://img.shields.io/badge/GitHub_Actions-0b1328?style=for-the-badge&logo=githubactions&logoColor=a855f7" alt="GitHub Actions">
+<img src="https://img.shields.io/badge/Android_Studio-0b1328?style=for-the-badge&logo=androidstudio&logoColor=a855f7" alt="Android Studio">
+<img src="https://img.shields.io/badge/Telegram_Bot-0b1328?style=for-the-badge&logo=telegram&logoColor=a855f7" alt="Telegram Bot">
+</p>
+
+<img src="assets/ayirici.svg" width="100%" height="8" alt="">
+
+## GitHub İstatistikleri
+
+<img src="dist/istatistik.svg" alt="Açık repo, yayın, son bir yıldaki katkı ve commit sayısı" width="100%">
+
+<img src="dist/diller.svg" alt="En çok kullandığım diller, açık repolardaki kod baytına göre" width="100%">
+
+<img src="dist/kar-koyu.svg" alt="Son bir yılın katkı grafiği" width="100%">
+
+<sub>Kartlar kendi GitHub Actions işimle her gece yeniden çiziliyor; dış servise bağlı olmadıkları için kırılmıyor.</sub>
+
+<img src="assets/ayirici.svg" width="100%" height="8" alt="">
+
+## Proje Vitrini
 
 <table>
 <tr>
 <td colspan="2" valign="top">
-<a href="https://enskygr234.github.io/ensdewloper.github.io/son-vardiya/"><img src="img/son-vardiya.gif" alt="Son Vardiya tanıtım videosu"></a>
+<a href="https://enskygr234.github.io/ensdewloper.github.io/son-vardiya/"><img src="img/son-vardiya.gif" alt="Son Vardiya oynanış önizlemesi" width="100%"></a>
 
-**🔦 Son Vardiya** &nbsp;<sub>3D · birinci şahıs hikâye oyunu</sub><br>
-Yıkılmasına beş gün kalan bir AVM'de gece bekçisisin; telsizdeki eski bekçinin sırrını çöz. 5 gece, 5 hatıra, 3 son.<br>
-[⬇ APK](https://github.com/Enskygr234/winter-browser-releases/releases/download/wd-son-vardiya/SonVardiya.apk) · [▶ Oyna](https://enskygr234.github.io/ensdewloper.github.io/son-vardiya/) · [🎬 Tanıtım](https://enskygr234.github.io/ensdewloper.github.io/img/video/sonvardiya.mp4)
+### [Son Vardiya](https://github.com/Enskygr234/Son-Vardiya)
+<code>3D</code> <code>Birinci şahıs</code> <code>Hikâye</code>
+
+Yıkılmasına beş gün kalan bir AVM'de gece bekçisisin; telsizdeki eski bekçinin sırrını çöz. 5 gece, 5 hatıra, 3 son.
+
+<a href="https://github.com/Enskygr234/winter-browser-releases/releases/download/wd-son-vardiya/SonVardiya.apk"><img src="https://img.shields.io/badge/APK-indir-00d4ff?style=flat-square&labelColor=0b1328&logo=android&logoColor=00d4ff" alt="APK indir"></a>
+<a href="https://enskygr234.github.io/ensdewloper.github.io/son-vardiya/"><img src="https://img.shields.io/badge/Tarayıcıda-oyna-a855f7?style=flat-square&labelColor=0b1328" alt="Tarayıcıda oyna"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://enskygr234.github.io/mahalle/"><img src="img/mahalle.gif" alt="Mahalle tanıtım videosu"></a>
+<a href="https://enskygr234.github.io/mahalle/"><img src="img/mahalle.gif" alt="Mahalle oynanış önizlemesi" width="100%"></a>
 
-**🏘️ Mahalle**<br>
-1996 yazı, Akasya Sokağı: seçimli hikâye oyunu, 5 farklı son.<br>
-[⬇ APK](https://github.com/Enskygr234/winter-browser-releases/releases/download/wd-mahalle/Mahalle.apk) · [⬇ Windows](https://github.com/Enskygr234/winter-browser-releases/releases/download/wd-mahalle/Mahalle-Windows.exe) · [▶ Oyna](https://enskygr234.github.io/mahalle/)
+### [Mahalle](https://github.com/Enskygr234/mahalle)
+<code>Seçimli hikâye</code> <code>5 son</code>
+
+1996 yazı, Akasya Sokağı: kararlarınla şekillenen bir mahalle hikâyesi.
+
+<a href="https://github.com/Enskygr234/winter-browser-releases/releases/download/wd-mahalle/Mahalle.apk"><img src="https://img.shields.io/badge/APK-indir-00d4ff?style=flat-square&labelColor=0b1328&logo=android&logoColor=00d4ff" alt="APK"></a>
+<a href="https://github.com/Enskygr234/winter-browser-releases/releases/download/wd-mahalle/Mahalle-Windows.exe"><img src="https://img.shields.io/badge/Windows-indir-00d4ff?style=flat-square&labelColor=0b1328" alt="Windows"></a>
+<a href="https://enskygr234.github.io/mahalle/"><img src="https://img.shields.io/badge/Oyna-web-a855f7?style=flat-square&labelColor=0b1328" alt="Oyna"></a>
 </td>
 <td width="50%" valign="top">
-<a href="https://enskygr234.github.io/ayazle/"><img src="img/ayazle.gif" alt="Ayazle tanıtım videosu"></a>
+<a href="https://enskygr234.github.io/ayazle/"><img src="img/ayazle.gif" alt="Ayazle oynanış önizlemesi" width="100%"></a>
 
-**🔤 Ayazle**<br>
-Türkçe kelime oyunu: gizli kelimeyi 6 hakta bul, anlamını öğren.<br>
-[⬇ APK](https://github.com/Enskygr234/winter-browser-releases/releases/download/wd-ayazle/Ayazle.apk) · [▶ Oyna](https://enskygr234.github.io/ayazle/)
+### [Ayazle](https://github.com/Enskygr234/ayazle)
+<code>Kelime oyunu</code> <code>Türkçe</code>
+
+Gizli kelimeyi 6 hakta bul, sonunda anlamını öğren.
+
+<a href="https://github.com/Enskygr234/winter-browser-releases/releases/download/wd-ayazle/Ayazle.apk"><img src="https://img.shields.io/badge/APK-indir-00d4ff?style=flat-square&labelColor=0b1328&logo=android&logoColor=00d4ff" alt="APK"></a>
+<a href="https://enskygr234.github.io/ayazle/"><img src="https://img.shields.io/badge/Oyna-web-a855f7?style=flat-square&labelColor=0b1328" alt="Oyna"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://enskygr234.github.io/Winterball/"><img src="img/winterball.gif" alt="Winterball tanıtım videosu"></a>
 
-**⚽ Winterball**<br>
-Canlı skorlar, kadrolar ve 14 ligin puan durumu.<br>
-[⬇ APK](https://github.com/Enskygr234/winter-browser-releases/releases/download/wd-winterball/Winterball.apk) · [▶ Aç](https://enskygr234.github.io/Winterball/)
-</td>
-<td width="50%" valign="top">
-<a href="https://enskygr234.github.io/ensdewloper.github.io/ayaz-feneri/"><img src="img/ayaz-feneri.gif" alt="Ayaz Ata'nın Feneri tanıtım videosu"></a>
-
-**🏮 Ayaz Ata'nın Feneri**<br>
-Hikâyeli platform oyunu: Karakoncolos'tan yıldızları geri al.<br>
-[⬇ APK](https://github.com/Enskygr234/winter-browser-releases/releases/download/wd-ensdewloper/AyazFeneri.apk) · [▶ Oyna](https://enskygr234.github.io/ensdewloper.github.io/ayaz-feneri/)
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://enskygr234.github.io/?q=GolHaber"><img src="img/golhaber.gif" alt="GolHaber tanıtım videosu"></a>
-
-**⚽ GolHaber**<br>
-Canlı skorlar, gol bildirimleri ve transfer haberleri.<br>
-[⬇ APK](https://github.com/Enskygr234/winter-browser-releases/releases/download/wd-golhaber/GolHaber.apk)
-</td>
-<td width="50%" valign="top">
-<a href="https://enskygr234.github.io/?q=Son%20K%C4%B1%C5%9F"><img src="img/son-kis.png" alt="Son Kış"></a>
-
-**❄️ Son Kış**<br>
-Bir Nardugan masalı: masal ruhlarını ısıt ya da yak.<br>
-[⬇ Windows için indir](https://github.com/Enskygr234/winter-browser-releases/releases/tag/wd-son-kis)
-</td>
-</tr>
-</table>
-
-## 🆕 Son eklenenler
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-**⚔️ [Demon Academy](https://github.com/Enskygr234/demon-academy)**<br>
-<sub>Phaser 3 · Capacitor</sub>
+### [Demon Academy](https://github.com/Enskygr234/demon-academy)
+<code>Phaser 3</code> <code>Capacitor</code>
 
 Piksel sanatlı, yandan kaydırmalı anime aksiyon RPG'si. Dört kahraman, beş bölüm, tek hedef: Void Gate'i kapatmak.
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-**🌙 [Eclyra: Ayın Kuyusu](https://github.com/Enskygr234/eclyra)**<br>
-<sub>Electron · Windows</sub>
+### [Eclyra: Ayın Kuyusu](https://github.com/Enskygr234/eclyra)
+<code>Electron</code> <code>Windows</code>
 
-Kiri Köyü'nün altındaki 100 basamaklı Derinlik'e in, 10 Mühürdar'ı yen, Ay Tanrıçası'nı uyandır.
+100 basamaklı Derinlik'e in, 10 Mühürdar'ı yen, Ay Tanrıçası'nı uyandır.
 
-[![İndir](https://img.shields.io/badge/⬇_Windows-Setup.exe-5fd4ff?style=flat-square)](https://github.com/Enskygr234/eclyra/releases/latest)
-</td>
-<td width="33%" valign="top">
-
-**📒 [LEDGER X](https://github.com/Enskygr234/LEDGER-X)**<br>
-<sub>Capacitor · SQLite · Android</sub>
-
-Fatura, teklif, müşteri ve ürün yönetimi; içinde SQL editörü ve ER diyagramlı veritabanı stüdyosu. Çevrimdışı çalışır.
+<a href="https://github.com/Enskygr234/eclyra/releases/latest"><img src="https://img.shields.io/badge/Windows-Setup.exe-00d4ff?style=flat-square&labelColor=0b1328" alt="Windows kurulum"></a>
 </td>
 </tr>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-**🖥️ [SysMonitor](https://github.com/Enskygr234/computer-maintenance)**<br>
-<sub>Electron · Windows</sub>
+### [LEDGER X](https://github.com/Enskygr234/LEDGER-X)
+<code>Capacitor</code> <code>SQLite</code> <code>Android</code>
+
+Fatura, teklif, müşteri ve ürün yönetimi; SQL editörü ve ER diyagramlı veritabanı stüdyosu. Çevrimdışı çalışır.
+</td>
+<td width="50%" valign="top">
+
+### [Korku Modu](https://github.com/Enskygr234/korku-modu)
+<code>Minecraft 1.21.1</code> <code>Fabric</code> <code>Java</code>
+
+Türk efsanelerinden korku modu. Albastı yalnızca ona bakmadığında yaklaşır; Nazar Boncuğu taşıyorsan sana dokunamaz.
+
+<a href="https://github.com/Enskygr234/winter-browser-releases/releases/download/wd-korku-modu/korku-modu-1.21.1.jar"><img src="https://img.shields.io/badge/Mod-.jar-a855f7?style=flat-square&labelColor=0b1328" alt="Mod indir"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Winterball](https://github.com/Enskygr234/Winterball)
+<code>Android</code> <code>Canlı skor</code>
+
+Canlı skorlar, kadrolar ve 14 ligin puan durumu.
+
+<a href="https://github.com/Enskygr234/winter-browser-releases/releases/download/wd-winterball/Winterball.apk"><img src="https://img.shields.io/badge/APK-indir-00d4ff?style=flat-square&labelColor=0b1328&logo=android&logoColor=00d4ff" alt="APK"></a>
+<a href="https://enskygr234.github.io/Winterball/"><img src="https://img.shields.io/badge/Aç-web-a855f7?style=flat-square&labelColor=0b1328" alt="Web"></a>
+</td>
+<td width="50%" valign="top">
+
+### [SysMonitor](https://github.com/Enskygr234/computer-maintenance)
+<code>Electron</code> <code>Windows</code>
 
 Bilgisayarın durumunu tek yerden izle, bakımını tek tıkla yap: performans, temizlik, donanım bilgisi.
 
-[![İndir](https://img.shields.io/badge/⬇_Windows-Setup.exe-5fd4ff?style=flat-square)](https://github.com/Enskygr234/computer-maintenance/releases/latest)
-</td>
-<td width="33%" valign="top">
-
-**🚗 [SA Garage](https://github.com/Enskygr234/sa-garage)**<br>
-<sub>Electron · Windows</sub>
-
-San Andreas için kişisel launcher: tek tıkla oyna, araç modlarını kur, kayıtlarını yedekle.
-
-[![İndir](https://img.shields.io/badge/⬇_Windows-Setup.exe-5fd4ff?style=flat-square)](https://github.com/Enskygr234/sa-garage/releases/latest)
-</td>
-<td width="33%" valign="top">
-
-**🏋️ [FITTRACK](https://github.com/Enskygr234/FITTRACK)**<br>
-<sub>HTML · CSS · JavaScript</sub>
-
-Çevrimdışı fitness takibi: kendi programın, 873 egzersizlik kütüphane, beslenme, protein ve su takibi.
+<a href="https://github.com/Enskygr234/computer-maintenance/releases/latest"><img src="https://img.shields.io/badge/Windows-Setup.exe-00d4ff?style=flat-square&labelColor=0b1328" alt="Windows kurulum"></a>
 </td>
 </tr>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-**👁️ [Korku Modu](https://github.com/Enskygr234/korku-modu)**<br>
-<sub>Minecraft 1.21.1 · Fabric · Java</sub>
-
-Türk efsanelerinden korku modu. Albastı sadece ona bakmadığında yaklaşır; Nazar Boncuğu taşıyorsan sana dokunamaz.
-
-[![İndir](https://img.shields.io/badge/⬇_Mod-.jar-f2a33a?style=flat-square)](https://github.com/Enskygr234/winter-browser-releases/releases/download/wd-korku-modu/korku-modu-1.21.1.jar)
-</td>
-<td width="33%" valign="top">
-
-**🎮 [Oyuncu Merkezi](https://github.com/Enskygr234/oyuncu-merkez)**<br>
-<sub>React · Vite · Capacitor</sub>
+### [Oyuncu Merkezi](https://github.com/Enskygr234/oyuncu-merkez)
+<code>React</code> <code>Vite</code> <code>Capacitor</code>
 
 Steam indirimleri, hedef fiyata inince bildirim veren istek listesi ve Minecraft sunucu durumu.
 
-[![APK](https://img.shields.io/badge/⬇_APK-Android-3DDC84?style=flat-square&logo=android&logoColor=white)](https://github.com/Enskygr234/winter-browser-releases/releases/download/wd-oyuncu-merkez/oyuncu-merkezi.apk)
+<a href="https://github.com/Enskygr234/winter-browser-releases/releases/download/wd-oyuncu-merkez/oyuncu-merkezi.apk"><img src="https://img.shields.io/badge/APK-indir-00d4ff?style=flat-square&labelColor=0b1328&logo=android&logoColor=00d4ff" alt="APK"></a>
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-**🏷️ [İndirim Avcısı](https://github.com/Enskygr234/indirim-avcisi)**<br>
-<sub>Kotlin · Jetpack Compose · Python</sub>
+### [Türkçe API](https://github.com/Enskygr234/turkce-api)
+<code>API</code> <code>Açık veri</code>
 
-Güvenilir mağazalardaki indirimleri 30 dakikada bir toplar; oranına ve kategoriye göre süzersin.
+Sayıyı yazıya çevirme, il plaka kodları, resmi tatiller ve atasözleri.
 
-[![APK](https://img.shields.io/badge/⬇_APK-Android-3DDC84?style=flat-square&logo=android&logoColor=white)](https://github.com/Enskygr234/winter-browser-releases/releases/download/wd-indirim-avcisi/indirim-avcisi.apk)
+<a href="https://enskygr234.github.io/turkce-api/"><img src="https://img.shields.io/badge/Canlı-dene-a855f7?style=flat-square&labelColor=0b1328" alt="Canlı"></a>
 </td>
 </tr>
 </table>
 
-## 🧰 Bütün projelerim
-
-<details open>
-<summary><b>🎮 Oyunlar</b></summary>
+<details>
+<summary><b>Diğer oynanış önizlemeleri</b></summary>
 <br>
 
-| Proje | Ne? |
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://enskygr234.github.io/ensdewloper.github.io/ayaz-feneri/"><img src="img/ayaz-feneri.gif" alt="Ayaz Ata'nın Feneri" width="100%"></a>
+
+**Ayaz Ata'nın Feneri** — Hikâyeli platform oyunu: Karakoncolos'tan yıldızları geri al.<br>
+[APK](https://github.com/Enskygr234/winter-browser-releases/releases/download/wd-ensdewloper/AyazFeneri.apk) · [Oyna](https://enskygr234.github.io/ensdewloper.github.io/ayaz-feneri/)
+</td>
+<td width="50%" valign="top">
+<a href="https://enskygr234.github.io/?q=GolHaber"><img src="img/golhaber.gif" alt="GolHaber" width="100%"></a>
+
+**GolHaber** — Canlı skorlar, gol bildirimleri ve transfer haberleri.<br>
+[APK](https://github.com/Enskygr234/winter-browser-releases/releases/download/wd-golhaber/GolHaber.apk)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://enskygr234.github.io/Winterball/"><img src="img/winterball.gif" alt="Winterball" width="100%"></a>
+
+**Winterball** — Canlı skorlar ve puan durumu.
+</td>
+<td width="50%" valign="top">
+<a href="https://enskygr234.github.io/?q=Son%20K%C4%B1%C5%9F"><img src="img/son-kis.png" alt="Son Kış" width="100%"></a>
+
+**Son Kış** — Bir Nardugan masalı: masal ruhlarını ısıt ya da yak.<br>
+[Windows için indir](https://github.com/Enskygr234/winter-browser-releases/releases/tag/wd-son-kis)
+</td>
+</tr>
+</table>
+
+</details>
+
+<details>
+<summary><b>Tüm projeler</b></summary>
+<br>
+
+**Oyunlar**
+
+| Proje | Açıklama |
 |---|---|
 | [Son Vardiya](https://github.com/Enskygr234/Son-Vardiya) | Terk edilmiş AVM'de 3D gece bekçisi hikâyesi |
-| [Son Tren](https://github.com/Enskygr234/Son-Tren) | Gece treninde hafızasız uyan, boş biletin sırrını çöz · [▶ oyna](https://enskygr234.github.io/Son-Tren/) |
+| [Son Tren](https://github.com/Enskygr234/Son-Tren) | Gece treninde hafızasız uyan, boş biletin sırrını çöz · [oyna](https://enskygr234.github.io/Son-Tren/) |
 | [Karanlık Ev](https://github.com/Enskygr234/karanlik-ev) | Fenerle 3 anahtarı bul, hayaletten kaç: 3D korku |
 | [Demon Academy](https://github.com/Enskygr234/demon-academy) | Piksel sanatlı anime aksiyon RPG'si |
 | [Eclyra](https://github.com/Enskygr234/eclyra) | 100 katlı zindanda Ay Tanrıçası'nı uyandır |
-| [Mahalle](https://github.com/Enskygr234/mahalle) | 1996 yazında geçen seçimli hikâye · [▶ oyna](https://enskygr234.github.io/mahalle/) |
-| [Kar Çarkı](https://github.com/Enskygr234/Kar-ark-) | 999.999.999 seviyeli Türkçe harf çarkı · [▶ oyna](https://enskygr234.github.io/Kar-ark-/) |
-| [Ayazle](https://github.com/Enskygr234/ayazle) | 6 hakta Türkçe kelime bul · [▶ oyna](https://enskygr234.github.io/ayazle/) |
+| [Mahalle](https://github.com/Enskygr234/mahalle) | 1996 yazında geçen seçimli hikâye · [oyna](https://enskygr234.github.io/mahalle/) |
+| [Kar Çarkı](https://github.com/Enskygr234/Kar-ark-) | 999.999.999 seviyeli Türkçe harf çarkı · [oyna](https://enskygr234.github.io/Kar-ark-/) |
+| [Ayazle](https://github.com/Enskygr234/ayazle) | 6 hakta Türkçe kelime bul · [oyna](https://enskygr234.github.io/ayazle/) |
 | [Buz Kırıcı](https://github.com/Enskygr234/buz-kirici) | Kartopuyla buz bloklarını kır: 8 bölümlük tuğla kırma |
 | [Kar Birleştir](https://github.com/Enskygr234/kar-birlestir) | 2048 tarzı: kar tanesinden Ayaz Ata'ya |
 | [Kızak](https://github.com/Enskygr234/kizak) | Ağaçlara çarpmadan sonsuz kızak |
 | [XOX](https://github.com/Enskygr234/xox-oyunu) | Minimax'lı yenilmez bilgisayara karşı XOX |
 | [Ayaz Ata'nın Feneri](https://enskygr234.github.io/ensdewloper.github.io/ayaz-feneri/) · [Son Kış](https://enskygr234.github.io/?q=Son%20K%C4%B1%C5%9F) · [Kayıp Fener](https://enskygr234.github.io/?q=Kay%C4%B1p%20Fener) | Platform ve masal oyunları |
-| [Korku Modu](https://github.com/Enskygr234/korku-modu) | 🧱 Minecraft için Türk efsaneleri korku modu |
+| [Korku Modu](https://github.com/Enskygr234/korku-modu) | Minecraft için Türk efsaneleri korku modu |
 
-</details>
+**Android uygulamaları**
 
-<details>
-<summary><b>📱 Android uygulamaları</b></summary>
-<br>
-
-| Proje | Ne? |
+| Proje | Açıklama |
 |---|---|
 | [LEDGER X](https://github.com/Enskygr234/LEDGER-X) | İşletme yönetimi ve görsel veritabanı stüdyosu |
 | [Mont Al](https://github.com/Enskygr234/mont-al) | Havaya bakıp ne giyeceğini söyler · [site](https://enskygr234.github.io/mont-al/) |
 | [Oyuncu Merkezi](https://github.com/Enskygr234/oyuncu-merkez) | Steam indirimleri ve Minecraft sunucu durumu |
-| [İndirim Avcısı](https://github.com/Enskygr234/indirim-avcisi) | Mağaza indirimlerini toplar |
+| [İndirim Avcısı](https://github.com/Enskygr234/indirim-avcisi) | Güvenilir mağazalardaki indirimleri 30 dakikada bir toplar |
 | [Winterball](https://github.com/Enskygr234/Winterball) · [GolHaber](https://github.com/Enskygr234/golhaber) | Canlı skor, puan durumu, gol bildirimi |
 | [Demir Fitness](https://github.com/Enskygr234/Winter-gym) · [FITTRACK](https://github.com/Enskygr234/FITTRACK) | Antrenman ve beslenme takibi |
 
-</details>
+**Windows araçları**
 
-<details>
-<summary><b>🖥️ Windows araçları</b></summary>
-<br>
-
-| Proje | Ne? |
+| Proje | Açıklama |
 |---|---|
 | [SysMonitor](https://github.com/Enskygr234/computer-maintenance) | Bilgisayar durumu ve tek tık bakım |
 | [SA Garage](https://github.com/Enskygr234/sa-garage) | San Andreas launcher ve mod yöneticisi |
@@ -232,13 +279,9 @@ Güvenilir mağazalardaki indirimleri 30 dakikada bir toplar; oranına ve katego
 | [Buz Arşiv](https://enskygr234.github.io/?q=Buz%20Ar%C5%9Fiv) · [Ayaz Launcher](https://enskygr234.github.io/?q=Ayaz%20Launcher) · [Masaüstü Kar](https://enskygr234.github.io/?q=Masa%C3%BCst%C3%BC%20Kar) · [Klavye Ayazı](https://enskygr234.github.io/?q=Klavye%20Ayaz%C4%B1) | Küçük kış temalı masaüstü araçları |
 | [Hazır .exe dosyaları](https://github.com/Enskygr234/indirmeler) | Windows uygulamalarımın indirmeleri |
 
-</details>
+**Web, API ve botlar**
 
-<details>
-<summary><b>🌐 Web, API ve botlar</b></summary>
-<br>
-
-| Proje | Ne? |
+| Proje | Açıklama |
 |---|---|
 | [Türkçe API](https://github.com/Enskygr234/turkce-api) | Sayıyı yazıya çevirme, il plaka kodları, resmi tatiller, atasözleri · [canlı](https://enskygr234.github.io/turkce-api/) |
 | [Nöbetçi Eczane](https://github.com/Enskygr234/Nobet-ecza) | 81 ilde nöbetçi eczaneler, günde 2 kez güncellenir |
@@ -253,9 +296,9 @@ Güvenilir mağazalardaki indirimleri 30 dakikada bir toplar; oranına ve katego
 
 </details>
 
-Açıklamalar, tanıtım videoları ve indirme butonları için: **[sitem](https://enskygr234.github.io/)**
+<img src="assets/ayirici.svg" width="100%" height="8" alt="">
 
-## 📦 Son yayınlar
+## Son Yayınlar
 
 <!-- YAYIN:BASLA -->
 | Yayın | Tarih |
@@ -269,23 +312,31 @@ Açıklamalar, tanıtım videoları ve indirme butonları için: **[sitem](https
 <sub>Hepsi ve daha fazlası: [enskygr234.github.io](https://enskygr234.github.io/)</sub>
 <!-- YAYIN:BITIS -->
 
-## 🛠️ Kullandıklarım
+<img src="assets/ayirici.svg" width="100%" height="8" alt="">
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,html,css,react,vite,threejs,electron,nodejs,kotlin,java,python,cs,dotnet,androidstudio,githubactions&perline=15" alt="JavaScript, HTML, CSS, React, Vite, three.js, Electron, Node.js, Kotlin, Java, Python, C#, .NET, Android Studio, GitHub Actions">
-</p>
+## İletişim
 
-## ❄️ Kar yağan katkı grafiğim
+<div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dist/kar-koyu.svg">
-  <img src="dist/kar-acik.svg" alt="Son bir yılın katkıları, üstüne kar yağıyor" width="100%">
-</picture>
+<a href="https://enskygr234.github.io/"><img src="https://img.shields.io/badge/Web_sitesi-0b1328?style=for-the-badge&logo=googlechrome&logoColor=00d4ff" alt="Web sitesi"></a>
+<a href="mailto:ensygk115@gmail.com"><img src="https://img.shields.io/badge/E--posta-0b1328?style=for-the-badge&logo=gmail&logoColor=00d4ff" alt="E-posta"></a>
+<a href="https://github.com/Enskygr234"><img src="https://img.shields.io/badge/GitHub-0b1328?style=for-the-badge&logo=github&logoColor=a855f7" alt="GitHub"></a>
+<a href="https://github.com/Enskygr234/winter-browser-releases/releases"><img src="https://img.shields.io/badge/İndirmeler-0b1328?style=for-the-badge&logo=android&logoColor=a855f7" alt="İndirmeler"></a>
+<!--
+  Sosyal medya hesaplarını eklemek için aşağıdaki satırların başındaki ve sonundaki yorum işaretlerini kaldırıp
+  KULLANICI_ADI kısmını kendi kullanıcı adınla değiştir:
+<a href="https://www.linkedin.com/in/KULLANICI_ADI"><img src="https://img.shields.io/badge/LinkedIn-0b1328?style=for-the-badge&logo=linkedin&logoColor=00d4ff" alt="LinkedIn"></a>
+<a href="https://x.com/KULLANICI_ADI"><img src="https://img.shields.io/badge/X-0b1328?style=for-the-badge&logo=x&logoColor=00d4ff" alt="X"></a>
+<a href="https://www.instagram.com/KULLANICI_ADI"><img src="https://img.shields.io/badge/Instagram-0b1328?style=for-the-badge&logo=instagram&logoColor=a855f7" alt="Instagram"></a>
+<a href="https://www.youtube.com/@KULLANICI_ADI"><img src="https://img.shields.io/badge/YouTube-0b1328?style=for-the-badge&logo=youtube&logoColor=a855f7" alt="YouTube"></a>
+-->
 
-## 📜 Lisans
+<sub>Açık repolarımın hepsi <a href="LICENSE">MIT lisansı</a> ile paylaşılıyor: lisans ve telif notunu koruduğun sürece kullanabilir, değiştirebilir, dağıtabilirsin.</sub>
 
-Açık repolarımın hepsi **[MIT lisansı](LICENSE)** ile paylaşılıyor: kodu kullanabilir, değiştirebilir, kendi projende dağıtabilirsin; tek şart lisans ve telif notunu korumak. Her reponun kendi `LICENSE` dosyası var.
+</div>
 
----
+<img src="assets/ayirici.svg" width="100%" height="8" alt="">
 
-<div align="center"><sub>❄️ Kış gelir, kod yazılır.</sub></div>
+<!-- KIS:BASLA -->
+<p align="center"><sub>Nardugan'a (kış gündönümü) <b>51 gün</b> kaldı &nbsp;<code>▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱</code><br>Her gün kendiliğinden güncellenir · son: 31 Ekim 2026</sub></p>
+<!-- KIS:BITIS -->

@@ -1,94 +1,129 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Winterdeveloper: oyunlar, Android uygulamaları, Minecraft modu ve Windows araçları">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Winterdeveloper — oyunlar, Android uygulamaları, Windows araçları ve web projeleri">
 <defs>
-<linearGradient id="gok" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#050b18"/><stop offset=".6" stop-color="#0a1a33"/><stop offset="1" stop-color="#10284a"/></linearGradient>
-<linearGradient id="yazi" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff"/><stop offset=".5" stop-color="#c9ecff"/><stop offset="1" stop-color="#5fd4ff"/></linearGradient>
-<linearGradient id="dag1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b3a5e"/><stop offset="1" stop-color="#0c1d33"/></linearGradient>
-<linearGradient id="dag2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#11263f"/><stop offset="1" stop-color="#081322"/></linearGradient>
-<radialGradient id="ay"><stop offset="0" stop-color="#fff8e1"/><stop offset=".55" stop-color="#ffe9b0"/><stop offset="1" stop-color="#f2a33a" stop-opacity="0"/></radialGradient>
-<linearGradient id="aurora" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2be3b4" stop-opacity="0"/><stop offset=".3" stop-color="#2be3b4" stop-opacity=".5"/><stop offset=".6" stop-color="#3d7bff" stop-opacity=".45"/><stop offset="1" stop-color="#a66bff" stop-opacity="0"/></linearGradient>
-<filter id="bulanik" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="18"/></filter>
-<clipPath id="c"><rect width="1200" height="340" rx="22"/></clipPath>
+  <linearGradient id="zemin" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#03050c"/>
+    <stop offset=".55" stop-color="#070d20"/>
+    <stop offset="1" stop-color="#0b1431"/>
+  </linearGradient>
+  <linearGradient id="baslik" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#e9f6ff"/>
+    <stop offset=".45" stop-color="#5fe1ff"/>
+    <stop offset="1" stop-color="#b57bff"/>
+  </linearGradient>
+  <linearGradient id="cizgi" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00d4ff" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#00d4ff"/>
+    <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="tarama" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00d4ff" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#00d4ff" stop-opacity=".10"/>
+    <stop offset="1" stop-color="#00d4ff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="izgaraSol" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#00d4ff" stop-opacity="0"/>
+    <stop offset="1" stop-color="#00d4ff" stop-opacity=".35"/>
+  </linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0d1530" stop-opacity=".92"/>
+    <stop offset="1" stop-color="#070c1c" stop-opacity=".92"/>
+  </linearGradient>
+  <linearGradient id="panelKenar" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#00d4ff" stop-opacity=".7"/>
+    <stop offset="1" stop-color="#a855f7" stop-opacity=".7"/>
+  </linearGradient>
+  <filter id="bulanik" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+  <filter id="parilti" x="-20%" y="-40%" width="140%" height="180%">
+    <feGaussianBlur stdDeviation="6" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="kirp"><rect width="1200" height="380" rx="18"/></clipPath>
+  <pattern id="nokta" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#5fe1ff" opacity=".10"/></pattern>
 </defs>
 <style>
-text{font-family:-apple-system,"Segoe UI",system-ui,"Helvetica Neue",Arial,sans-serif}
-.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-.aur{animation:dalga 14s ease-in-out infinite alternate;transform-origin:600px 90px}
-@keyframes dalga{0%{transform:translateX(-40px) scaleY(.85);opacity:.7}100%{transform:translateX(40px) scaleY(1.15);opacity:1}}
-.k{fill:#fff;animation:dus linear infinite}
-@keyframes dus{from{transform:translate(0,-20px)}to{transform:translate(18px,360px)}}
-.rol{opacity:0;animation:rol 12s infinite}
-.r1{animation-delay:0s}.r2{animation-delay:3s}.r3{animation-delay:6s}.r4{animation-delay:9s}
-@keyframes rol{0%{opacity:0;transform:translateY(8px)}4%,22%{opacity:1;transform:translateY(0)}27%,100%{opacity:0;transform:translateY(-8px)}}
-.imlec{animation:yanip 1s steps(1) infinite}
-@keyframes yanip{50%{opacity:0}}
-.par{animation:par 3s ease-in-out infinite alternate}
-@keyframes par{to{opacity:.35}}
-@media (prefers-reduced-motion:reduce){.k,.imlec{display:none}.aur,.par{animation:none}.rol{animation:none}.r1{opacity:1}}
+  .sans{font-family:'Segoe UI',Inter,-apple-system,system-ui,Roboto,Helvetica,Arial,sans-serif}
+  .mono{font-family:'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'SF Mono',Menlo,'Courier New',monospace}
+  .kure{animation:nefes 7s ease-in-out infinite}
+  .kure2{animation:nefes 9s ease-in-out infinite reverse}
+  @keyframes nefes{0%,100%{opacity:.55}50%{opacity:.95}}
+  .tara{animation:tara 6s linear infinite}
+  @keyframes tara{from{transform:translateX(-400px)}to{transform:translateX(1300px)}}
+  .imlec{animation:yanip 1.05s steps(1) infinite}
+  @keyframes yanip{50%{opacity:0}}
+  .gir{opacity:0;animation:gir .9s ease-out forwards}
+  @keyframes gir{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .zerre{animation:yuksel linear infinite}
+  @keyframes yuksel{from{transform:translateY(0);opacity:0}15%{opacity:.8}to{transform:translateY(-260px);opacity:0}}
+  @media (prefers-reduced-motion:reduce){.kure,.kure2,.tara,.imlec,.zerre{animation:none}.gir{animation:none;opacity:1}}
 </style>
-<g clip-path="url(#c)">
-<rect width="1200" height="340" fill="url(#gok)"/>
-<!-- yıldızlar -->
-<g fill="#cfe9ff">
-<circle class="par" cx="80" cy="40" r="1.2"/><circle cx="210" cy="24" r=".9"/><circle class="par" cx="330" cy="62" r="1"/><circle cx="470" cy="30" r="1.3"/>
-<circle cx="560" cy="70" r=".8"/><circle class="par" cx="690" cy="22" r="1.1" style="animation-delay:1s"/><circle cx="770" cy="54" r=".9"/><circle cx="1110" cy="30" r="1.2"/>
-<circle class="par" cx="1160" cy="96" r="1" style="animation-delay:2s"/><circle cx="640" cy="120" r=".8"/><circle cx="40" cy="130" r=".9"/><circle cx="420" cy="110" r=".7"/>
-</g>
-<!-- kuzey ışıkları -->
-<g class="aur" filter="url(#bulanik)">
-<path d="M-50 120 C 200 40, 380 150, 620 70 S 1000 40, 1260 110 L1260 150 C 1000 90, 820 140, 620 120 S 200 100, -50 170 Z" fill="url(#aurora)"/>
-</g>
-<!-- ay -->
-<circle cx="1010" cy="92" r="70" fill="url(#ay)" opacity=".35"/>
-<circle cx="1010" cy="92" r="34" fill="#fff4d6"/>
-<circle cx="998" cy="84" r="5" fill="#f0dfb0" opacity=".7"/><circle cx="1022" cy="102" r="7" fill="#f0dfb0" opacity=".6"/><circle cx="1016" cy="76" r="3" fill="#f0dfb0" opacity=".7"/>
-<!-- dağlar -->
-<g transform="translate(0,42)"><path d="M0 270 L120 214 L190 236 L300 204 L420 240 L520 214 L640 262 L760 178 L860 230 L960 168 L1080 236 L1200 190 L1200 340 L0 340 Z" fill="url(#dag1)"/>
-<path d="M300 204 L278 218 L294 216 L304 224 L316 214 L326 218 Z M760 178 L734 196 L752 192 L766 202 L778 190 L790 196 Z M960 168 L934 186 L952 182 L964 192 L976 180 L990 186 Z" fill="#e8f6ff" opacity=".85"/></g>
-<path transform="translate(0,14)" d="M0 300 L90 262 L210 292 L340 248 L470 290 L600 258 L740 296 L880 254 L1010 290 L1120 262 L1200 280 L1200 340 L0 340 Z" fill="url(#dag2)"/>
-<!-- çam ağaçları -->
-<g fill="#06101d">
-<path d="M1060 312 l14 -46 l14 46 z M1066 292 l8 -30 l8 30 z"/><rect x="1072" y="312" width="4" height="8"/>
-<path d="M1100 318 l11 -36 l11 36 z"/><rect x="1109" y="318" width="4" height="6"/>
-<path d="M1136 314 l16 -54 l16 54 z"/><rect x="1150" y="314" width="4" height="8"/>
-<path d="M30 318 l12 -40 l12 40 z"/><rect x="40" y="318" width="4" height="6"/>
-<path d="M58 322 l9 -30 l9 30 z"/>
-</g>
-<rect y="322" width="1200" height="18" fill="#e9f5ff" opacity=".9"/>
-<path d="M0 322 Q 150 312 300 322 T 600 322 T 900 322 T 1200 322 V340 H0 Z" fill="#f4fbff"/>
 
-<!-- yazılar -->
-<text class="mono" x="70" y="82" font-size="17" fill="#5fd4ff">~/enskygr234 <tspan fill="#7f9bb5">$</tspan> <tspan fill="#cfe3f5">whoami</tspan></text>
-<text x="66" y="156" font-size="78" font-weight="800" letter-spacing="-3" fill="url(#yazi)">Winterdeveloper</text>
-<g font-size="24" fill="#9db6cf">
-<text x="70" y="198"><tspan fill="#f2a33a" font-weight="700">Kışı</tspan> seven bir geliştiriciyim.<tspan class="imlec" fill="#5fd4ff"> ▍</tspan></text>
+<g clip-path="url(#kirp)">
+  <rect width="1200" height="380" fill="url(#zemin)"/>
+  <rect width="1200" height="380" fill="url(#nokta)"/>
+
+  <!-- ışık küreleri -->
+  <circle class="kure" cx="180" cy="90" r="170" fill="#00b8ff" opacity=".7" filter="url(#bulanik)"/>
+  <circle class="kure2" cx="1040" cy="300" r="190" fill="#8b3dff" opacity=".7" filter="url(#bulanik)"/>
+  <circle class="kure" cx="760" cy="-20" r="120" fill="#4f46e5" opacity=".5" filter="url(#bulanik)"/>
+
+  <!-- perspektif ızgara -->
+  <g stroke="url(#izgaraSol)" stroke-width="1" fill="none" opacity=".9">
+    <path d="M600 250 L-300 380 M600 250 L-60 380 M600 250 L180 380 M600 250 L420 380 M600 250 L600 380 M600 250 L780 380 M600 250 L1020 380 M600 250 L1260 380 M600 250 L1500 380"/>
+    <path d="M0 262 H1200 M0 278 H1200 M0 300 H1200 M0 330 H1200 M0 372 H1200" stroke="#00d4ff" stroke-opacity=".14"/>
+  </g>
+  <rect x="0" y="250" width="1200" height="1" fill="url(#cizgi)" opacity=".8"/>
+
+  <!-- yükselen zerreler -->
+  <g fill="#5fe1ff">
+    <circle class="zerre" cx="90"  cy="370" r="1.6" style="animation-duration:9s;animation-delay:-1s"/>
+    <circle class="zerre" cx="260" cy="370" r="1.2" style="animation-duration:11s;animation-delay:-6s"/>
+    <circle class="zerre" cx="410" cy="370" r="1.8" style="animation-duration:8s;animation-delay:-3s"/>
+    <circle class="zerre" cx="555" cy="370" r="1.2" style="animation-duration:12s;animation-delay:-8s"/>
+    <circle class="zerre" cx="700" cy="370" r="1.5" style="animation-duration:10s;animation-delay:-2s" fill="#b57bff"/>
+    <circle class="zerre" cx="880" cy="370" r="1.3" style="animation-duration:9.5s;animation-delay:-5s" fill="#b57bff"/>
+    <circle class="zerre" cx="1010" cy="370" r="1.7" style="animation-duration:12.5s;animation-delay:-9s" fill="#b57bff"/>
+    <circle class="zerre" cx="1150" cy="370" r="1.2" style="animation-duration:10.5s;animation-delay:-4s"/>
+  </g>
+
+  <!-- sol: kimlik -->
+  <g class="gir" style="animation-delay:.05s">
+    <rect x="64" y="70" width="176" height="30" rx="15" fill="#00d4ff" fill-opacity=".08" stroke="#00d4ff" stroke-opacity=".45"/>
+    <circle cx="84" cy="85" r="4" fill="#00d4ff" filter="url(#parilti)"/>
+    <text class="mono" x="98" y="90" font-size="14" fill="#9fe9ff" letter-spacing=".5">~/enskygr234</text>
+  </g>
+  <g class="gir" style="animation-delay:.2s">
+    <text class="sans" x="62" y="168" font-size="70" font-weight="800" fill="url(#baslik)" textLength="560" lengthAdjust="spacingAndGlyphs" filter="url(#parilti)">Winterdeveloper</text>
+  </g>
+  <g class="gir" style="animation-delay:.38s">
+    <text class="sans" x="65" y="212" font-size="22" fill="#c4d3ec" letter-spacing=".3">Oyunlar <tspan fill="#00d4ff">/</tspan> Android uygulamaları <tspan fill="#a855f7">/</tspan> Windows araçları <tspan fill="#00d4ff">/</tspan> Web</text>
+  </g>
+  <g class="gir" style="animation-delay:.55s">
+    <rect x="65" y="232" width="64" height="3" rx="1.5" fill="#00d4ff"/>
+    <rect x="135" y="232" width="22" height="3" rx="1.5" fill="#a855f7"/>
+  </g>
+
+  <!-- sağ: kod paneli -->
+  <g class="gir" style="animation-delay:.45s">
+    <rect x="770" y="58" width="370" height="178" rx="14" fill="url(#panel)" stroke="url(#panelKenar)" stroke-width="1.2"/>
+    <path d="M770 86 H1140" stroke="#1d2a4d"/>
+    <circle cx="790" cy="72" r="5" fill="#ff5f87" opacity=".85"/>
+    <circle cx="808" cy="72" r="5" fill="#ffd166" opacity=".85"/>
+    <circle cx="826" cy="72" r="5" fill="#3ee0a1" opacity=".85"/>
+    <text class="mono" x="1122" y="76" font-size="11.5" fill="#5d6b8f" text-anchor="end">profil.js</text>
+    <g class="mono" font-size="14.5">
+      <text x="792" y="114"><tspan fill="#b57bff">const</tspan><tspan fill="#e6edf7"> dev = {</tspan></text>
+      <text x="812" y="138"><tspan fill="#7dd3fc">ad</tspan><tspan fill="#e6edf7">: </tspan><tspan fill="#a5f3c4">"Winterdeveloper"</tspan><tspan fill="#e6edf7">,</tspan></text>
+      <text x="812" y="162"><tspan fill="#7dd3fc">yapar</tspan><tspan fill="#e6edf7">: [</tspan><tspan fill="#a5f3c4">"oyun"</tspan><tspan fill="#e6edf7">, </tspan><tspan fill="#a5f3c4">"apk"</tspan><tspan fill="#e6edf7">, </tspan><tspan fill="#a5f3c4">"exe"</tspan><tspan fill="#e6edf7">],</tspan></text>
+      <text x="812" y="186"><tspan fill="#7dd3fc">ilham</tspan><tspan fill="#e6edf7">: </tspan><tspan fill="#a5f3c4">"Türk masalları"</tspan><tspan fill="#e6edf7">,</tspan></text>
+      <text x="792" y="212"><tspan fill="#e6edf7">};</tspan></text>
+      <rect class="imlec" x="815" y="200" width="9" height="16" fill="#00d4ff"/>
+    </g>
+  </g>
+
+  <!-- tarama ışığı -->
+  <rect class="tara" x="0" y="0" width="260" height="380" fill="url(#tarama)"/>
+
+  <!-- çerçeve -->
+  <rect x=".75" y=".75" width="1198.5" height="378.5" rx="18" fill="none" stroke="url(#panelKenar)" stroke-opacity=".55" stroke-width="1.5"/>
 </g>
-<g font-size="24" fill="#9db6cf" font-weight="400">
-<text class="rol r1" x="70" y="232">🎮 Phaser, three.js ve saf JavaScript ile 15'ten fazla oyun</text>
-<text class="rol r2" x="70" y="232">📱 Kotlin ve Capacitor ile Android uygulamaları</text>
-<text class="rol r3" x="70" y="232">🧱 Türk efsanelerinden bir Minecraft korku modu</text>
-<text class="rol r4" x="70" y="232">🖥️ C# ve Electron ile küçük Windows araçları</text>
-</g>
-<!-- kar -->
-<g>
-<circle class="k" cx="60" cy="0" r="1.6" opacity=".8" style="animation-duration:11s;animation-delay:-2s"/>
-<circle class="k" cx="150" cy="0" r="1.1" opacity=".6" style="animation-duration:14s;animation-delay:-7s"/>
-<circle class="k" cx="240" cy="0" r="2" opacity=".7" style="animation-duration:9s;animation-delay:-4s"/>
-<circle class="k" cx="330" cy="0" r="1.3" opacity=".5" style="animation-duration:13s;animation-delay:-10s"/>
-<circle class="k" cx="410" cy="0" r="1.7" opacity=".8" style="animation-duration:10s;animation-delay:-1s"/>
-<circle class="k" cx="500" cy="0" r="1" opacity=".6" style="animation-duration:15s;animation-delay:-12s"/>
-<circle class="k" cx="580" cy="0" r="2.2" opacity=".7" style="animation-duration:8s;animation-delay:-5s"/>
-<circle class="k" cx="660" cy="0" r="1.4" opacity=".6" style="animation-duration:12s;animation-delay:-8s"/>
-<circle class="k" cx="740" cy="0" r="1.8" opacity=".8" style="animation-duration:10.5s;animation-delay:-3s"/>
-<circle class="k" cx="820" cy="0" r="1.1" opacity=".5" style="animation-duration:14s;animation-delay:-9s"/>
-<circle class="k" cx="900" cy="0" r="2" opacity=".7" style="animation-duration:9.5s;animation-delay:-6s"/>
-<circle class="k" cx="980" cy="0" r="1.3" opacity=".6" style="animation-duration:13s;animation-delay:-11s"/>
-<circle class="k" cx="1060" cy="0" r="1.7" opacity=".8" style="animation-duration:11s;animation-delay:-0.5s"/>
-<circle class="k" cx="1140" cy="0" r="1.2" opacity=".6" style="animation-duration:12.5s;animation-delay:-7.5s"/>
-<circle class="k" cx="200" cy="0" r="1.5" opacity=".7" style="animation-duration:10s;animation-delay:-8.5s"/>
-<circle class="k" cx="700" cy="0" r="1.2" opacity=".6" style="animation-duration:11.5s;animation-delay:-13s"/>
-<circle class="k" cx="1000" cy="0" r="1.9" opacity=".7" style="animation-duration:9s;animation-delay:-2.5s"/>
-<circle class="k" cx="460" cy="0" r="1.4" opacity=".7" style="animation-duration:12s;animation-delay:-5.5s"/>
-</g>
-</g>
-<rect x=".5" y=".5" width="1199" height="339" rx="22" fill="none" stroke="#5fd4ff" stroke-opacity=".18"/>
 </svg>
