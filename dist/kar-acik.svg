@@ -11,7 +11,7 @@
   .ortu,.tane{will-change:transform,opacity}
   @media (prefers-reduced-motion:reduce){.tane{display:none}.ortu{animation:none;opacity:1}.kirag{animation:none;opacity:.28}}
 </style>
-<rect width="792" height="172" rx="10" fill="#f6fbff"/>
+<rect x=".5" y=".5" width="791" height="171" rx="12" fill="#f6fbff" stroke="#f6fbff"/>
 <text class="y" x="48" y="26">Kas</text>
 <text class="y" x="118" y="26">Ara</text>
 <text class="y" x="174" y="26">Oca</text>
@@ -859,7 +859,7 @@
 <circle class="tane" cx="187.5" cy="0" r="1.8" opacity="0.88" style="--sx:26px;animation-duration:11.3s;animation-delay:-4.6s"/>
 <circle class="tane" cx="408.3" cy="0" r="1.8" opacity="0.71" style="--sx:28px;animation-duration:10.9s;animation-delay:-0.9s"/>
 <circle class="tane" cx="642.9" cy="0" r="1.2" opacity="0.88" style="--sx:-27px;animation-duration:16.7s;animation-delay:-9.3s"/>
-<text class="b" x="34" y="156">Son bir yılda 238 katkı ❄</text>
+<text class="b" x="34" y="156">Son bir yılda 239 katkı</text>
 <text class="y" x="634" y="156">Az</text>
 <rect x="662" y="146" width="11" height="11" rx="2.5" fill="#e3edf5"/>
 <rect x="676" y="146" width="11" height="11" rx="2.5" fill="#b9dcf2"/>
