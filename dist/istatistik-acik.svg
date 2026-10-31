@@ -49,8 +49,8 @@ text{font-family:-apple-system,'Segoe UI',system-ui,Helvetica,Arial,sans-serif}
 <g class="gir" style="animation-delay:0.00s"><rect x="32" y="62" width="3" height="40" rx="1.5" fill="#1d7fc4"/><text class="dg" x="44" y="88">44</text><text class="et" x="44" y="105">Açık repo</text></g>
 <g class="gir" style="animation-delay:0.08s"><rect x="166" y="62" width="3" height="40" rx="1.5" fill="#d9821a"/><text class="dg" x="178" y="88">11</text><text class="et" x="178" y="105">Kullandığım dil</text></g>
 <g class="gir" style="animation-delay:0.16s"><rect x="300" y="62" width="3" height="40" rx="1.5" fill="#1d7fc4"/><text class="dg" x="312" y="88">25</text><text class="et" x="312" y="105">Yayın</text></g>
-<g class="gir" style="animation-delay:0.24s"><rect x="32" y="134" width="3" height="40" rx="1.5" fill="#d9821a"/><text class="dg" x="44" y="160">233</text><text class="et" x="44" y="177">Son 1 yılda katkı</text></g>
-<g class="gir" style="animation-delay:0.32s"><rect x="166" y="134" width="3" height="40" rx="1.5" fill="#1d7fc4"/><text class="dg" x="178" y="160">—</text><text class="et" x="178" y="177">Son 1 yılda commit</text></g>
+<g class="gir" style="animation-delay:0.24s"><rect x="32" y="134" width="3" height="40" rx="1.5" fill="#d9821a"/><text class="dg" x="44" y="160">238</text><text class="et" x="44" y="177">Son 1 yılda katkı</text></g>
+<g class="gir" style="animation-delay:0.32s"><rect x="166" y="134" width="3" height="40" rx="1.5" fill="#1d7fc4"/><text class="dg" x="178" y="160">188</text><text class="et" x="178" y="177">Son 1 yılda commit</text></g>
 <g class="gir" style="animation-delay:0.40s"><rect x="300" y="134" width="3" height="40" rx="1.5" fill="#d9821a"/><text class="dg" x="312" y="160">MIT</text><text class="et" x="312" y="177">Lisans</text></g>
 <text class="bs" x="474" y="44">🛠️ En çok yazdığım diller</text>
 <rect x="474" y="62" width="394" height="10" rx="5" fill="#dce9f4"/>
