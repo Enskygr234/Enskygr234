@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 210" width="900" height="210" role="img" aria-label="Enskygr234 GitHub istatistikleri">
+<defs>
+<linearGradient id="z" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1830"/><stop offset="1" stop-color="#050b15"/></linearGradient>
+<clipPath id="k"><rect width="900" height="210" rx="14"/></clipPath>
+</defs>
+<style>
+text{font-family:-apple-system,'Segoe UI',system-ui,Helvetica,Arial,sans-serif}
+.bs{font-size:15px;font-weight:700;fill:#e8f4ff}
+.et{font-size:12.5px;fill:#7f9bb5}
+.dg{font-size:24px;font-weight:800;fill:#e8f4ff}
+.dl{font-size:12.5px;fill:#e8f4ff}
+.yz{font-size:12.5px;fill:#7f9bb5;font-variant-numeric:tabular-nums}
+.tn{fill:#ffffff;animation:d linear infinite}
+@keyframes d{from{transform:translateY(-12px)}to{transform:translateY(222px)}}
+.gir{opacity:0;animation:g .7s ease-out forwards}
+@keyframes g{to{opacity:1}}
+@media (prefers-reduced-motion:reduce){.tn{display:none}.gir{animation:none;opacity:1}}
+</style>
+<g clip-path="url(#k)"><rect width="900" height="210" fill="url(#z)"/>
+<circle class="tn" cx="407" cy="0" r="2" opacity="0.45" style="animation-duration:16.7s;animation-delay:-3.4s"/>
+<circle class="tn" cx="724" cy="0" r="2" opacity="0.53" style="animation-duration:16.1s;animation-delay:-1.7s"/>
+<circle class="tn" cx="273" cy="0" r="1" opacity="0.49" style="animation-duration:17.0s;animation-delay:-11.4s"/>
+<circle class="tn" cx="536" cy="0" r="2" opacity="0.68" style="animation-duration:14.9s;animation-delay:-11.1s"/>
+<circle class="tn" cx="142" cy="0" r="1" opacity="0.62" style="animation-duration:9.6s;animation-delay:-0.6s"/>
+<circle class="tn" cx="792" cy="0" r="1" opacity="0.60" style="animation-duration:11.9s;animation-delay:-10.6s"/>
+<circle class="tn" cx="176" cy="0" r="1.2" opacity="0.54" style="animation-duration:13.5s;animation-delay:-11.9s"/>
+<circle class="tn" cx="412" cy="0" r="1.6" opacity="0.43" style="animation-duration:14.0s;animation-delay:-16.8s"/>
+<circle class="tn" cx="75" cy="0" r="1.6" opacity="0.39" style="animation-duration:11.1s;animation-delay:-5.2s"/>
+<circle class="tn" cx="63" cy="0" r="1" opacity="0.43" style="animation-duration:16.6s;animation-delay:-7.0s"/>
+<circle class="tn" cx="862" cy="0" r="1" opacity="0.35" style="animation-duration:17.3s;animation-delay:-0.9s"/>
+<circle class="tn" cx="338" cy="0" r="2" opacity="0.44" style="animation-duration:14.1s;animation-delay:-3.6s"/>
+<circle class="tn" cx="607" cy="0" r="1.6" opacity="0.29" style="animation-duration:12.0s;animation-delay:-17.4s"/>
+<circle class="tn" cx="682" cy="0" r="1" opacity="0.31" style="animation-duration:15.4s;animation-delay:-0.2s"/>
+<circle class="tn" cx="418" cy="0" r="2" opacity="0.33" style="animation-duration:14.0s;animation-delay:-8.1s"/>
+<circle class="tn" cx="172" cy="0" r="1.2" opacity="0.44" style="animation-duration:12.5s;animation-delay:-7.1s"/>
+<circle class="tn" cx="891" cy="0" r="1" opacity="0.37" style="animation-duration:17.7s;animation-delay:-14.5s"/>
+<circle class="tn" cx="274" cy="0" r="1" opacity="0.34" style="animation-duration:12.5s;animation-delay:-15.4s"/>
+<circle class="tn" cx="578" cy="0" r="1" opacity="0.27" style="animation-duration:10.3s;animation-delay:-7.9s"/>
+<circle class="tn" cx="9" cy="0" r="1.6" opacity="0.62" style="animation-duration:12.5s;animation-delay:-1.3s"/>
+<circle class="tn" cx="188" cy="0" r="1.2" opacity="0.26" style="animation-duration:12.3s;animation-delay:-11.2s"/>
+<circle class="tn" cx="114" cy="0" r="2" opacity="0.62" style="animation-duration:10.2s;animation-delay:-6.9s"/>
+<circle class="tn" cx="565" cy="0" r="1.6" opacity="0.66" style="animation-duration:16.4s;animation-delay:-4.5s"/>
+<circle class="tn" cx="171" cy="0" r="1.2" opacity="0.56" style="animation-duration:12.5s;animation-delay:-8.7s"/>
+<circle class="tn" cx="71" cy="0" r="1" opacity="0.30" style="animation-duration:9.3s;animation-delay:-17.3s"/>
+<circle class="tn" cx="215" cy="0" r="2" opacity="0.37" style="animation-duration:16.4s;animation-delay:-10.7s"/>
+<rect x=".5" y=".5" width="899" height="209" rx="14" fill="none" stroke="#1d3550"/>
+<line x1="446" y1="28" x2="446" y2="182" stroke="#1d3550"/>
+<text class="bs" x="32" y="44">❄ Rakamlarla</text>
+<g class="gir" style="animation-delay:0.00s"><rect x="32" y="62" width="3" height="40" rx="1.5" fill="#5fd4ff"/><text class="dg" x="44" y="88">44</text><text class="et" x="44" y="105">Açık repo</text></g>
+<g class="gir" style="animation-delay:0.08s"><rect x="166" y="62" width="3" height="40" rx="1.5" fill="#f2a33a"/><text class="dg" x="178" y="88">11</text><text class="et" x="178" y="105">Kullandığım dil</text></g>
+<g class="gir" style="animation-delay:0.16s"><rect x="300" y="62" width="3" height="40" rx="1.5" fill="#5fd4ff"/><text class="dg" x="312" y="88">25</text><text class="et" x="312" y="105">Yayın</text></g>
+<g class="gir" style="animation-delay:0.24s"><rect x="32" y="134" width="3" height="40" rx="1.5" fill="#f2a33a"/><text class="dg" x="44" y="160">233</text><text class="et" x="44" y="177">Son 1 yılda katkı</text></g>
+<g class="gir" style="animation-delay:0.32s"><rect x="166" y="134" width="3" height="40" rx="1.5" fill="#5fd4ff"/><text class="dg" x="178" y="160">—</text><text class="et" x="178" y="177">Son 1 yılda commit</text></g>
+<g class="gir" style="animation-delay:0.40s"><rect x="300" y="134" width="3" height="40" rx="1.5" fill="#f2a33a"/><text class="dg" x="312" y="160">MIT</text><text class="et" x="312" y="177">Lisans</text></g>
+<text class="bs" x="474" y="44">🛠️ En çok yazdığım diller</text>
+<rect x="474" y="62" width="394" height="10" rx="5" fill="#16263a"/>
+<clipPath id="bar"><rect x="474" y="62" width="394" height="10" rx="5"/></clipPath><g clip-path="url(#bar)">
+<rect x="474.0" y="62" width="351.6" height="10" fill="#f1e05a"/>
+<rect x="825.1" y="62" width="18.6" height="10" fill="#e34c26"/>
+<rect x="843.2" y="62" width="14.6" height="10" fill="#663399"/>
+<rect x="857.3" y="62" width="4.9" height="10" fill="#3572A5"/>
+<rect x="861.6" y="62" width="3.1" height="10" fill="#A97BFF"/>
+<rect x="864.2" y="62" width="2.3" height="10" fill="#b07219"/>
+</g>
+<g class="gir" style="animation-delay:0.30s"><circle cx="480" cy="100" r="5.5" fill="#f1e05a"/><text class="dl" x="494" y="104">JavaScript</text><text class="yz" x="664" y="104" text-anchor="end">%89.1</text></g>
+<g class="gir" style="animation-delay:0.37s"><circle cx="684" cy="100" r="5.5" fill="#e34c26"/><text class="dl" x="698" y="104">HTML</text><text class="yz" x="868" y="104" text-anchor="end">%4.6</text></g>
+<g class="gir" style="animation-delay:0.44s"><circle cx="480" cy="128" r="5.5" fill="#663399"/><text class="dl" x="494" y="132">CSS</text><text class="yz" x="664" y="132" text-anchor="end">%3.6</text></g>
+<g class="gir" style="animation-delay:0.51s"><circle cx="684" cy="128" r="5.5" fill="#3572A5"/><text class="dl" x="698" y="132">Python</text><text class="yz" x="868" y="132" text-anchor="end">%1.1</text></g>
+<g class="gir" style="animation-delay:0.58s"><circle cx="480" cy="156" r="5.5" fill="#A97BFF"/><text class="dl" x="494" y="160">Kotlin</text><text class="yz" x="664" y="160" text-anchor="end">%0.7</text></g>
+<g class="gir" style="animation-delay:0.65s"><circle cx="684" cy="156" r="5.5" fill="#b07219"/><text class="dl" x="698" y="160">Java</text><text class="yz" x="868" y="160" text-anchor="end">%0.5</text></g>
+</g></svg>

@@ -1,4 +1,4 @@
-# Profil README'sindeki "Nardugan'a kaç gün" ve "Son yayınlar" bölümlerini her gün günceller.
+# Profil README'sindeki "Nardugan'a kaç gün", "Son yayınlar", karlı katkı grafiği ve istatistik kartını her gün günceller.
 name: Profili güncelle
 
 on:
@@ -11,6 +11,7 @@ on:
       - ".github/scripts/guncelle.py"
       - ".github/workflows/profil.yml"
       - ".github/scripts/kar_grafik.py"
+      - ".github/scripts/istatistik.py"
 
 permissions:
   contents: write
@@ -31,6 +32,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python .github/scripts/kar_grafik.py
+      - name: İstatistik kartını çiz
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/scripts/istatistik.py
       - name: Değişiklik varsa kaydet
         run: |
           git add -A
