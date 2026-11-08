@@ -338,5 +338,5 @@ Sayıyı yazıya çevirme, il plaka kodları, resmi tatiller ve atasözleri.
 <img src="assets/ayirici.svg" width="100%" height="8" alt="">
 
 <!-- KIS:BASLA -->
-<p align="center"><sub>Nardugan'a (kış gündönümü) <b>44 gün</b> kaldı &nbsp;<code>▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱</code><br>Her gün kendiliğinden güncellenir · son: 7 Kasım 2026</sub></p>
+<p align="center"><sub>Nardugan'a (kış gündönümü) <b>43 gün</b> kaldı &nbsp;<code>▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱</code><br>Her gün kendiliğinden güncellenir · son: 8 Kasım 2026</sub></p>
 <!-- KIS:BITIS -->
